@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>f3-pilons.ac</path>
+  <animation>
+    <object-name>pylon1.L</object-name>
+    <object-name>pylon2.L</object-name>
+        <object-name>pylon2.R</object-name>
+    <object-name>pylon1.R</object-name>
+  </animation>
+
+  <!-- pylon options -->
+  <!--station left 1 -->
+  <animation>
+    <type>select</type>
+    <object-name>pylon1.L</object-name>      
+    <condition>
+      <not-equals>
+        <property>sim/weight[8]/selected</property>
+        <value>none</value>
+      </not-equals>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>pylon2.L</object-name>      
+    <condition>
+      <not-equals>
+        <property>sim/weight[9]/selected</property>
+        <value>none</value>
+      </not-equals>
+    </condition>
+  </animation>
+
+
+    
+  <animation>
+    <type>select</type>
+    <object-name>pylon2.R</object-name>      
+    <condition>
+      <not-equals>
+        <property>sim/weight[10]/selected</property>
+        <value>none</value>
+      </not-equals>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>pylon1.R</object-name>      
+    <condition>
+      <not-equals>
+        <property>sim/weight[11]/selected</property>
+        <value>none</value>
+      </not-equals>
+    </condition>
+  </animation>
+
+</PropertyList>
