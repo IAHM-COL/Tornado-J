@@ -142,20 +142,6 @@
         <object-name>glas.front</object-name>
     </animation>
 
- <!-- no shadows -->
- <animation>
-  <type>noshadow</type>
-  <object-name>markings</object-name>
-  <object-name>left_flame</object-name>
-  <object-name>left_internal_flame</object-name>
-  <object-name>right_flame</object-name>
-  <object-name>right_internal_flame</object-name>
-  <object-name>red_light</object-name>
-  <object-name>green_light</object-name>
-  <object-name>lhcondensation cone</object-name>
-  <object-name>rhcondensation cone</object-name>
- </animation>
-
  <!-- wing sweep tornado 25(neutral), 45, 67 degrees-->
   
   <animation>
@@ -444,25 +430,6 @@
 	 
  </animation>
  
- 
- <!--<animation>
-  <type>select</type>
-  <object-name>left_flame</object-name>
-  <object-name>left_internal_flame</object-name>
-  <condition>
-   <property>engines/engine[0]/augmentation</property>
-  </condition>
- </animation>
-
- <animation>
-  <type>select</type>
-  <object-name>right_flame</object-name>
-  <object-name>right_internal_flame</object-name>
-  <condition>
-   <property>engines/engine[1]/augmentation</property>
-  </condition>
- </animation>-->
-
  <!--gear animation-->
  <!--front gear-->
  
@@ -1192,27 +1159,27 @@
 		</axis> 
 	</animation>
 
- <animation>
+ <!-- animation>
   <type>select</type>
-  <object-name>lhcondensation cone</object-name>
+  <object-name>lh-condensation cone</object-name>
   <condition>
    <greater-than>
     <property>orientation/alpha-deg</property>
     <value>9.0</value>
    </greater-than>
   </condition>
- </animation>
+ </animation -->
 
- <animation>
+ <!-- animation>
   <type>select</type>
-  <object-name>rhcondensation cone</object-name>
+  <object-name>rh-condensation cone</object-name>
   <condition>
    <greater-than>
     <property>orientation/alpha-deg</property>
     <value>9.0</value>
    </greater-than>
   </condition>
- </animation>
+ </animation -->
 
  <animation>
   <type>rotate</type>

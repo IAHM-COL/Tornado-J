@@ -445,7 +445,7 @@
    <pitch-deg>52</pitch-deg>
   </offsets>
  </model>
- <!--
+ 
  <model>
   <name>tacan</name>
   <path>Aircraft/Tornado/Models/Interior/Instruments/common/tacan/ARN-118-tacan.xml</path>
@@ -456,7 +456,7 @@
    <pitch-deg>51.5</pitch-deg>
   </offsets>
  </model>
- -->
+ 
  <model>
   <name>sas</name>
   <path>Aircraft/Tornado/Models/Interior/Instruments/common/sas/A-10-sas.xml</path>

@@ -24,6 +24,7 @@
 		<center><z-m>0.1895</z-m></center>
 		<axis><x>-1</x></axis>
 	</animation>
+
 	<animation>
 		<type>rotate</type>
 		<object-name>stick-roll</object-name>
