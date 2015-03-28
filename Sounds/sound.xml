@@ -534,7 +534,7 @@
  
  <voice-lowheight>
   <name>voice-lowheight</name>
-  <path>/Aircraft/Tornado/Sounds/Voice/lowheight.wav</path>
+  <path>Aircraft/Tornado/Sounds/Voice/lowheight.wav</path>
   <type>avionics</type>
   <mode>once</mode>
   <condition>
@@ -551,7 +551,7 @@
  
  <voice-frequency>
   <name>voice-frequency</name>
-  <path>/Aircraft/Tornado/Sounds/Voice/frequency.wav</path>
+  <path>Aircraft/Tornado/Sounds/Voice/frequency.wav</path>
   <type>avionics</type>
   <mode>once</mode>
   <condition>
@@ -568,7 +568,7 @@
  
  <voice-wingtanks>
   <name>voice-wingtanks</name>
-  <path>/Aircraft/Tornado/Sounds/Voice/wingtanks.wav</path>
+  <path>Aircraft/Tornado/Sounds/Voice/wingtanks.wav</path>
   <type>avionics</type>
   <mode>once</mode>
   <condition>
@@ -609,7 +609,7 @@
  
  <voice-centretank>
   <name>voice-centretank</name>
-  <path>/Aircraft/Tornado/Sounds/Voice/centretank.wav</path>
+  <path>Aircraft/Tornado/Sounds/Voice/centretank.wav</path>
   <type>avionics</type>
   <mode>once</mode>
   <condition>
@@ -626,7 +626,7 @@
  
  <voice-transonic>
   <name>voice-transonic</name>
-  <path>/Aircraft/Tornado/Sounds/Voice/transonic.wav</path>
+  <path>Aircraft/Tornado/Sounds/Voice/transonic.wav</path>
   <type>avionics</type>
   <mode>once</mode>
   <condition>
