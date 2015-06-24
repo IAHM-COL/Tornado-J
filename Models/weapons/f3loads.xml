@@ -9,7 +9,7 @@
   <!-- pylons -->
   
   <model>
-    <path>Aircraft/Tornado/Models/weapons/f3pylons.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/f3pylons.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -26,7 +26,7 @@
   
   <model>
     <name>left-AIM-120-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/AIM120.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AIM120.xml</path>
     <offsets>
       <x-m>  -2.3</x-m>
       <y-m> -0.45</y-m>
@@ -57,7 +57,7 @@
   
   <model>
     <name>left-AIM-120-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/AIM120.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AIM120.xml</path>
     <offsets>
       <x-m>  1.5</x-m>
       <y-m> -0.35</y-m>
@@ -85,7 +85,7 @@
   
   <model>
     <name>left-ALARM-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/alarmf3.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/alarmf3.xml</path>
     <offsets>
       <x-m>  1.3</x-m>
       <y-m> 0.1</y-m>
@@ -114,7 +114,7 @@
   
   <model>
     <name>left-auxtank-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/aux-tank-f3.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/aux-tank-f3.xml</path>
     <offsets>
       <x-m>  1.3</x-m>
       <y-m> 0.1</y-m>
@@ -146,7 +146,7 @@
   
   <model>
     <name>right-AIM-120-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/AIM120.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AIM120.xml</path>
     <offsets>
       <x-m>  0.5</x-m>
       <y-m> 0.35</y-m>
@@ -174,7 +174,7 @@
   
   <model>
     <name>right-ALARM-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/alarmf3.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/alarmf3.xml</path>
     <offsets>
       <x-m>  0.9</x-m>
       <y-m> 0.9</y-m>
@@ -204,7 +204,7 @@
   
   <model>
     <name>right-auxtank-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/aux-tank-f3.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/aux-tank-f3.xml</path>
     <offsets>
       <x-m>  0.9</x-m>
       <y-m> 0.9</y-m>
@@ -235,7 +235,7 @@
   
   <model>
     <name>right-AIM-120-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/AIM120.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AIM120.xml</path>
     <offsets>
       <x-m>  -3.3</x-m>
       <y-m> 0.45</y-m>

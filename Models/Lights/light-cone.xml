@@ -34,7 +34,7 @@
  
   <!-- Landing lights -->
    <model>
-<path>Aircraft/Tornado/Models/Lights/normal/landinglight.xml</path>
+<path>Aircraft/Tornado-J/Models/Lights/normal/landinglight.xml</path>
 <name>NoseGearLandinglight</name>     
 <condition>
  <equals>
@@ -54,7 +54,7 @@
 
 <model>
     <name>Taxi-Light</name>
-    <path>Aircraft/Tornado/Models/Lights/normal/light-cone.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/normal/light-cone.xml</path>
     <offsets>
        <x-m>0</x-m>
       <y-m>0</y-m>

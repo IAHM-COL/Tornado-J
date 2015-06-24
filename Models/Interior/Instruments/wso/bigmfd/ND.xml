@@ -3,7 +3,7 @@
 
  <path>big-mfd.ac</path>
 	<model>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/terrain-map-pixel.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/terrain-map-pixel.xml</path>
 		<!--
 		<condition>
 			<and>
@@ -22,7 +22,7 @@
 		</offsets>
 	</model>
     <panel>
-        <path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/Display.xml</path>
+        <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/Display.xml</path>
 	<!--
 	<condition>
 		<greater-than>

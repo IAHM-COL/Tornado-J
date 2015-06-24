@@ -2,7 +2,7 @@
 <PropertyList>
 
 	<name>MFD Panel</name>
-	<background>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/transparent.png</background>
+	<background>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/transparent.png</background>
 	<w>256</w>
 	<h>256</h>
 

@@ -6,7 +6,7 @@
 
  <panel>
   <name>Panel3D</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/radar1/ded-display.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/radar1/ded-display.xml</path>
 <!--  <bottom-left>
    <x-m> 0.00</x-m>
    <y-m>-0.045</y-m>

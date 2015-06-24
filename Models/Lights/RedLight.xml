@@ -31,7 +31,7 @@
 
   <model>
  <name>RedLight</name>
-    <path>Aircraft/Tornado/Models/Lights/normal/RedLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/normal/RedLight.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -41,7 +41,7 @@
   
   <model>
  <name>RedLight2</name>
-    <path>Aircraft/Tornado/Models/Lights/remb/NavLightL.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/remb/NavLightL.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>

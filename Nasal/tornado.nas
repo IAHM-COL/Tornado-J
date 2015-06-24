@@ -1,3 +1,179 @@
+var sweepmonitor=func {
+print("Sweep");
+	if (getprop("/controls/flight/wing-sweep-cmd")==2) {
+		setprop("/fdm/jsbsim/metrics/Sw-sqft", 286);
+	}
+	if (getprop("/controls/flight/wing-sweep-cmd")==1) {
+		setprop("/fdm/jsbsim/metrics/Sw-sqft", 480);
+	}
+	if (getprop("/controls/flight/wing-sweep-cmd")==0) {
+		setprop("/fdm/jsbsim/metrics/Sw-sqft", 520);
+	}
+}
+
+var batstart= func {
+	setprop("controls/electric/battery-switch",1);
+	gui.popupTip("System on battery, starting APU!");
+}
+
+var apustart= func {
+	setprop("controls/APU/off-start-run", 1);
+	setprop("controls/electric/APU-generator", 1);
+	gui.popupTip("APU starting!");
+}
+
+var pump0start= func {
+	setprop("controls/fuel/tank[0]/boost-pump[0]", 1);
+	setprop("controls/fuel/tank[0]/boost-pump[1]", 1);
+	gui.popupTip("Fuel pumps wing tank left starting!");
+}
+
+var pump2start= func {
+	setprop("controls/fuel/tank[2]/boost-pump[0]", 1);
+	setprop("controls/fuel/tank[2]/boost-pump[1]", 1);
+	gui.popupTip("Fuel pumps wing tank right starting!");
+}
+
+var pump1start= func {
+	setprop("controls/fuel/tank[1]/boost-pump[0]", 1);
+	setprop("controls/fuel/tank[1]/boost-pump[1]", 1);
+	gui.popupTip("Fuel pumps center tank starting!");
+}
+
+var eng1start= func {
+	setprop("controls/electric/engine[0]/bus-tie",1);
+	setprop("controls/electric/engine[0]/generator",1);
+	setprop("controls/engines/engine[0]/cutoff", 1);	# needs to be true for JSB to spin up with starter
+	setprop("controls/engines/engine[0]/fuel-pump", 1);
+	setprop("controls/engines/engine[0]/ignition", 1);
+	setprop("controls/engines/engine[0]/starter", 1);
+	gui.popupTip("Engine 1 starting!");
+}
+
+var eng2start= func {
+	setprop("controls/electric/engine[1]/bus-tie",1);
+	setprop("controls/electric/engine[1]/generator",1);
+	setprop("controls/engines/engine[1]/cutoff", 1);	# needs to be true for JSB to spin up with starter
+	setprop("controls/engines/engine[1]/fuel-pump", 1);
+	setprop("controls/engines/engine[1]/ignition", 1);
+	setprop("controls/engines/engine[1]/starter", 1);
+	gui.popupTip("Engine 2 starting!");
+}
+
+var eng1norm= func {
+	setprop("controls/engines/engine[0]/cutoff", 0);	# now cutoff to false to make her run on her own
+	gui.popupTip("Engine 1 spinning up!");
+}
+
+var eng2norm= func {
+	setprop("controls/engines/engine[1]/cutoff", 0);	# now cutoff to false to make her run on her own
+	gui.popupTip("Engine 2 spinning up!");
+}
+
+var eng1watch= func {
+	var n2=getprop("fdm/jsbsim/propulsion/engine[0]/n2");
+	if (n2<59) {
+		settimer(eng1watch, 5);
+		if (n2<1) {
+			# re-trigger jsbsim to spin this engine up
+			setprop("controls/engines/engine[0]/cutoff", 1);
+			setprop("controls/engines/engine[0]/cutoff", 2);
+		}
+	} else {
+		gui.popupTip("Engine 1 running!");
+	}
+}
+
+var eng2watch= func {
+	var n2=getprop("fdm/jsbsim/propulsion/engine[1]/n2");
+	if (n2<59) {
+		settimer(eng2watch, 5);
+		if (n2<1) {
+			# re-trigger jsbsim to spin this engine up
+			setprop("controls/engines/engine[1]/cutoff", 1);
+			setprop("controls/engines/engine[1]/cutoff", 2);
+		}
+	} else {
+		gui.popupTip("Engine 2 running!");
+	}
+}
+
+var Startup = func {
+print("starting engines");
+	settimer(batstart, 1);
+	settimer(apustart, 6);
+	settimer(pump0start, 8);
+	settimer(pump2start, 10);
+	settimer(pump1start, 12);
+
+	settimer(eng1start, 12);
+	settimer(eng2start, 18);
+
+	settimer(eng1norm, 16);
+	settimer(eng2norm, 22);
+
+	settimer(eng1watch, 20);
+	settimer(eng2watch, 26);
+
+	# connect avionics, lights, etc
+#	setprop("controls/electric/avionics-switch",1);
+#	setprop("controls/electric/inverter-switch",1);
+#	setprop("controls/lighting/instrument-norm",0.8);
+#	setprop("controls/lighting/nav-lights",1);
+#	setprop("controls/lighting/beacon",1);
+#	setprop("controls/lighting/strobe",1);
+#	setprop("controls/lighting/wing-lights",1);
+#	setprop("controls/lighting/taxi-lights",1);
+#	setprop("controls/lighting/logo-lights",1);
+#	setprop("controls/lighting/cabin-lights",1);
+#	setprop("controls/lighting/landing-light[0]",1);
+#	setprop("controls/lighting/landing-light[1]",1);
+#	setprop("controls/lighting/landing-light[2]",1);
+#	setprop("controls/engines/engine[1]/cutoff",0);
+
+#	setprop("controls/lighting/instruments-norm",0.8);
+#	setprop("controls/lighting/instrument-lights-norm",0.8);
+#	setprop("controls/lighting/efis-norm",0.8);
+#	setprop("controls/lighting/panel-norm",0.8);
+#	setprop("systems/electrical/volts",28);
+}
+
+var Shutdown = func{
+setprop("controls/electric/engine[0]/generator",0);
+setprop("controls/electric/engine[1]/generator",0);
+setprop("controls/electric/engine[0]/bus-tie",0);
+setprop("controls/electric/engine[1]/bus-tie",0);
+setprop("controls/electric/APU-generator",0);
+setprop("controls/electric/avionics-switch",0);
+setprop("controls/electric/battery-switch",0);
+setprop("controls/electric/inverter-switch",0);
+setprop("controls/lighting/instruments-norm",0);
+setprop("controls/lighting/instrument-norm",0.0);
+setprop("controls/lighting/nav-lights",0);
+setprop("controls/lighting/beacon",0);
+setprop("controls/lighting/strobe",0);
+setprop("controls/lighting/wing-lights",0);
+setprop("controls/lighting/taxi-lights",0);
+setprop("controls/lighting/logo-lights",0);
+setprop("controls/lighting/cabin-lights",0);
+setprop("controls/lighting/landing-light[0]",0);
+setprop("controls/lighting/landing-light[1]",0);
+setprop("controls/lighting/landing-light[2]",0);
+setprop("controls/engines/engine[0]/cutoff",1);
+setprop("controls/engines/engine[1]/cutoff",1);
+setprop("controls/fuel/tank/boost-pump",0);
+setprop("controls/fuel/tank/boost-pump[1]",0);
+setprop("controls/fuel/tank[1]/boost-pump",0);
+setprop("controls/fuel/tank[1]/boost-pump[1]",0);
+setprop("controls/fuel/tank[2]/boost-pump",0);
+setprop("controls/fuel/tank[2]/boost-pump[1]",0);
+setprop("controls/lighting/instrument-lights-norm",0.0);
+setprop("controls/lighting/efis-norm",0.0);
+setprop("controls/lighting/panel-norm",0.0);
+setprop("systems/electrical/volts",0.0);
+}
+
+
 ##Taken from the B-1B##
 
 setlistener("/sim/signals/fdm-initialized", func {
@@ -13,12 +189,22 @@ setprop("instrumentation/teravd/target-vfpm", 0);
 setprop("instrumentation/teravd/target-alt", 0);
 
 setprop("/sim/current-view/field-of-view", 60);
-wingSweep(1);#sweep wings to fwd position
-wingSweep(1);
-fuelsweep(1);
-fuelsweepleft(1);
-fuelsweepright(1);
-print ("Tornado warming up!");
+
+setlistener("/sim/model/start-idling", func(idle) {
+print("calling idler");
+	var run= idle.getBoolValue();
+	if (run) {
+		Startup();
+	} else {
+		Shutdown();
+	}
+},0,0);
+
+print("before");
+setlistener("/fdm/jsbsim/fcs/wing-sweep-cmd", sweepmonitor);
+sweepmonitor();
+print("after");
+
 }
 
 aftburn_on = func {
@@ -33,92 +219,6 @@ setprop("/controls/engines/engine[0]/afterburner", 0);
 setprop("/controls/engines/engine[1]/afterburner", 0);
 }
 
-##
-# Wrapper around stepProps() which emulates the "old" wing sweep behavior for
-# configurations that aren't using the new mechanism.
-#
-wingSweep = func {
-    if(arg[0] == 0) { return; }
-    if(props.globals.getNode("/sim/wing-sweep") != nil) {
-        stepProps("/controls/flight/wing-sweep", "/sim/wing-sweep", arg[0]);
-        return;
-    }
-    # Hard-coded flaps movement in 3 equal steps:
-    val = 0.25 * arg[0] + getprop("/controls/flight/wing-sweep");
-    if(val > 1) { val = 1 } elsif(val < 0) { val = 0 }
-    setprop("/controls/flight/wing-sweep", val);
-}
-
-stepProps = func {
-    dst = props.globals.getNode(arg[0]);
-    array = props.globals.getNode(arg[1]);
-    delta = arg[2];
-    if(dst == nil or array == nil) { return; }
-
-    sets = array.getChildren("setting");
-
-    curr = array.getNode("current-setting", 1).getValue();
-    if(curr == nil) { curr = 0; }
-    curr = curr + delta;
-    if   (curr < 0)           { curr = 0; }
-    elsif(curr >= size(sets)) { curr = size(sets) - 1; }
-
-    array.getNode("current-setting").setIntValue(curr);
-    dst.setValue(sets[curr].getValue());
-}
-
-##
-#wingsweep monitor to adjust position of the weight of the wings
-##
-setlistener("controls/flight/wing-sweep", func {
-var sweep = getprop("controls/flight/wing-sweep");
-var wingm = 4000;# estimated mass of both wings
-var fwdsweep = wingm * sweep;
-var aftsweep = wingm - fwdsweep;
-setprop("sim/weight[0]/weight-lb", fwdsweep);
-setprop("sim/weight[1]/weight-lb", aftsweep);
-},0,0);
-
-##
-#wingsweep monitor to adjust wingfuel position
-##
-var fuelsweep = func {
-var sweep = getprop("controls/flight/wing-sweep");
-var fuelml = getprop("consumables/fuel/tank[0]/level-lbs");
-var fuelmr = getprop("consumables/fuel/tank[1]/level-lbs");
-
-var aftfuel = ((fuelml + fuelmr) * (1 - sweep));
-var fwdfuel = (aftfuel * (-1));
-setprop("sim/weight[2]/weight-lb", fwdfuel);
-setprop("sim/weight[3]/weight-lb", aftfuel);
-settimer(fuelsweep, 0.3);
-}
-
-##
-#wingsweep monitor to adjust external fuel pylons
-##
-var fuelsweepleft = func {
-var sweep = getprop("controls/flight/wing-sweep");
-var fuelm = getprop("consumables/fuel/tank[5]/level-lbs");
-
-var aftfuel = (fuelm * (1 - sweep));
-var fwdfuel = (aftfuel * (-1));
-setprop("sim/weight[4]/weight-lb", fwdfuel);
-setprop("sim/weight[5]/weight-lb", aftfuel);
-settimer(fuelsweepleft, 0.3);
-}
-
-var fuelsweepright = func {
-var sweep = getprop("controls/flight/wing-sweep");
-var fuelm = getprop("consumables/fuel/tank[6]/level-lbs");
-
-var aftfuel = (fuelm * (1 - sweep));
-var fwdfuel = (aftfuel * (-1));
-setprop("sim/weight[6]/weight-lb", fwdfuel);
-setprop("sim/weight[7]/weight-lb", aftfuel);
-settimer(fuelsweepright, 0.3);
-}
-
 ### tacan follow autopilot
 var tacan_follow = func {
 var ap_state = getprop("autopilot/locks/heading");
@@ -128,4 +228,5 @@ if (ap_state == "tacan-hold") {
 }
 settimer(tacan_follow, 1);
 }
+
 

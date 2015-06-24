@@ -8,7 +8,7 @@
 
   <submodel>
     <name>flares</name>
-    <model>Aircraft/Tornado/Models/Stores/Countermeasures/flare.xml</model>
+    <model>Aircraft/Tornado-J/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel/flare-release</trigger>
     <speed>10</speed>
     <repeat>true</repeat>
@@ -26,7 +26,7 @@
   
  <submodel>
     <name>flares</name>
-    <model>Aircraft/Tornado/Models/Stores/Countermeasures/flare.xml</model>
+    <model>Aircraft/Tornado-J/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel/flare-release</trigger>
     <speed>10</speed>
     <repeat>true</repeat>

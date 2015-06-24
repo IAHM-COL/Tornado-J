@@ -11,7 +11,7 @@
   <engine>
    <name>Intake Fans</name>
    <mode>looped</mode>
-   <path>Aircraft/Tornado/Sounds/Samples/engine-intake.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/Samples/engine-intake.wav</path>
    <condition>
     	<property>engines/engine/running</property>
     	 <not>
@@ -51,7 +51,7 @@
   <engine>
    <name>APU Exhaust</name>
    <mode>looped</mode>
-   <path>Aircraft/Tornado/Sounds/Samples/wing-vents.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/Samples/wing-vents.wav</path>
   <condition>
     	<property>engines/engine/running</property>
     	 <not>
@@ -91,7 +91,7 @@
   <engine>
    <name>Engine Exhaust</name>
    <mode>looped</mode>
-   <path>Aircraft/Tornado/Sounds/Samples/engine-exhaust.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/Samples/engine-exhaust.wav</path>
    <condition>
     	<property>engines/engine/running</property>
     	 <not>
@@ -131,7 +131,7 @@
   <engine>
    <name>Engine Thrust LowFreq</name>
    <mode>looped</mode>
-   <path>Aircraft/Tornado/Sounds/Samples/engine-lowfreq.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/Samples/engine-lowfreq.wav</path>
    <condition>
     	<property>engines/engine/running</property>
     	 <not>
@@ -172,7 +172,7 @@
   <engine>
    <name>Reheat</name>
    <mode>looped</mode>
-   <path>Aircraft/Tornado/Sounds/Samples/reheat.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/Samples/reheat.wav</path>
    <condition>
 	 <property>engines/engine/afterburner</property>
     	   <not>
@@ -208,7 +208,7 @@
   <sonicboom>
    <name>Sonic Boom</name>
 	<mode>once</mode>
-   <path>Aircraft/Tornado/Sounds/sonicboom.wav</path>
+   <path>Aircraft/Tornado-J/Sounds/sonicboom.wav</path>
    <condition>
    <and>
 	    <greater-than>
@@ -230,7 +230,7 @@
 		<flyby>
 			<name>fly-by</name>
 			<mode>once</mode>
-			<path>Aircraft/Tornado/Sounds/flyby.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/flyby.wav</path>
 			<condition>
 			<and>
 	    <greater-than>
@@ -258,7 +258,7 @@
 <guns>
       <name>gunfire</name>
       <mode>looped</mode>
-      <path>Aircraft/Tornado/Sounds/cannon.wav</path>
+      <path>Aircraft/Tornado-J/Sounds/cannon.wav</path>
       <condition> 
         <property>controls/armament/trigger</property>
         <property>ai/submodels/submodel/count</property>
@@ -278,7 +278,7 @@
 	<engine1-wake-forward>
   <name>Left Engine Wake</name>
   <mode>looped</mode>
-  <path>Aircraft/Tornado/Sounds/wake.wav</path>
+  <path>Aircraft/Tornado-J/Sounds/wake.wav</path>
   <position>
    <x>25</x>
    <y>-0.5</y>
@@ -304,7 +304,7 @@
   <engine1-wake-forward>
   <name>Left Engine Wake Forward</name>
   <mode>looped</mode>
-  <path>Aircraft/Tornado/Sounds/wake-fwd.wav</path>
+  <path>Aircraft/Tornado-J/Sounds/wake-fwd.wav</path>
   <delay-sec>3</delay-sec>
   <position>
    <x>-10</x>
@@ -331,7 +331,7 @@
   <engine1-wake-forward>
   <name>Right Engine Wake</name>
   <mode>looped</mode>
-  <path>Aircraft/Tornado/Sounds/wake.wav</path>
+  <path>Aircraft/Tornado-J/Sounds/wake.wav</path>
   <position>
    <x>25</x>
    <y>0.5</y>
@@ -357,7 +357,7 @@
   <engine1-wake-forward>
   <name>Right Engine Wake Forward</name>
   <mode>looped</mode>
-  <path>Aircraft/Tornado/Sounds/wake-fwd.wav</path>
+  <path>Aircraft/Tornado-J/Sounds/wake-fwd.wav</path>
   <position>
    <x>-10</x>
    <y>0.5</y>

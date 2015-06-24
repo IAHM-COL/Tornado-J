@@ -4,7 +4,7 @@
 <PropertyList>
 
  <name>Data Entry Display Panel</name>
- <background>Aircraft/Tornado/Models/Interior/Instruments/common/ded/trans.rgb</background>
+ <background>Aircraft/Tornado-J/Models/Interior/Instruments/common/ded/trans.rgb</background>
  <w>1024</w>
  <h>768</h>
 

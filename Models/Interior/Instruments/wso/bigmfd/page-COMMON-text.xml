@@ -179,7 +179,7 @@
 			<w>10</w>
 			<h>25</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.763</x1>

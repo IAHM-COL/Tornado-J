@@ -9,7 +9,7 @@ Syd Adams
 
     <panel>
         <name>Radar</name>
-        <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/radar.xml</path>
+        <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/radar.xml</path>
         <bottom-left>
             <x-m>0.003</x-m>
             <y-m>-0.050</y-m>

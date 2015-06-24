@@ -30,7 +30,7 @@
 
   <model>
    <name>whitebeacon</name>
-  <path>Aircraft/Tornado/Models/Lights/normal/StrobeWhite.xml</path>
+  <path>Aircraft/Tornado-J/Models/Lights/normal/StrobeWhite.xml</path>
    <offsets>
      <x-m>0</x-m>
      <y-m>0</y-m>
@@ -40,7 +40,7 @@
  
  <model>
    <name>whitebeacon1</name>
-  <path>Aircraft/Tornado/Models/Lights/remb/StrobeLight.xml</path>
+  <path>Aircraft/Tornado-J/Models/Lights/remb/StrobeLight.xml</path>
    <offsets>
      <x-m>0</x-m>
      <y-m>0</y-m>

@@ -13,7 +13,7 @@
             <w>256</w>
             <h>256</h>
             <texture>
-                <path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/transparent.png</path>
+                <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/transparent.png</path>
                 <x1>0.0</x1>
                 <y1>0.0</y1>
                 <x2>1</x2>

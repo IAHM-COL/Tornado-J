@@ -28,7 +28,7 @@
 
    <model>
    <name>redbeacon</name>
-  <path>Aircraft/Tornado/Models/Lights/normal/beacon.xml</path>
+  <path>Aircraft/Tornado-J/Models/Lights/normal/beacon.xml</path>
    <offsets>
      <x-m>0</x-m>
      <y-m>0</y-m>
@@ -38,7 +38,7 @@
  
  <model>
    <name>redbeacon1</name>
-  <path>Aircraft/Tornado/Models/Lights/remb/beacon.xml</path>
+  <path>Aircraft/Tornado-J/Models/Lights/remb/beacon.xml</path>
    <offsets>
      <x-m>0</x-m>
      <y-m>0</y-m>

@@ -9,7 +9,7 @@
 	<animation>
 		<object-name>pitch-L-switch</object-name>
 		<type>rotate</type>
-		<property>sim/model/Tornado/controls/sas/pitch-sas-switch</property>
+		<property>sim/model/Tornado-J/controls/sas/pitch-sas-switch</property>
 		<factor>60</factor>
 		<center>
 			<x-m>-0.0213</x-m>
@@ -26,7 +26,7 @@
 	<animation>
 		<object-name>pitch-R-switch</object-name>
 		<type>rotate</type>
-		<property>sim/model/Tornado/controls/sas/pitch-sas-switch</property>
+		<property>sim/model/Tornado-J/controls/sas/pitch-sas-switch</property>
 		<factor>60</factor>
 		<center>
 			<x-m>-0.0213</x-m>

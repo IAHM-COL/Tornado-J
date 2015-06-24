@@ -6,7 +6,7 @@
 
   <submodel>
     <name>flares</name>
-    <model>Aircraft/Tornado/Models/Stores/Countermeasures/flare.xml</model>
+    <model>Aircraft/Tornado-J/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel/flare-release</trigger>
     <speed>10</speed>
     <repeat>true</repeat>
@@ -24,7 +24,7 @@
   
  <submodel>
     <name>flares</name>
-    <model>Aircraft/Tornado/Models/Stores/Countermeasures/flare.xml</model>
+    <model>Aircraft/Tornado-J/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel/flare-release</trigger>
     <speed>10</speed>
     <repeat>true</repeat>
@@ -42,7 +42,7 @@
   
   <submodel>
     <name>M-61 20 mm cannon</name>
-    <model>Aircraft/Tornado/Models/Effects/guns/apibullet-tracer.xml</model>
+    <model>Aircraft/Tornado-J/Models/Effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>3380.0</speed>
     <repeat>true</repeat>
@@ -62,12 +62,12 @@
     <collision-report>sim/ai/aircraft/collision/gun</collision-report>
     <impact>true</impact>
     <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-    <submodel-path>Aircraft/Tornado/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+    <submodel-path>Aircraft/Tornado-J/Models/Effects/guns/bullet-submodel.xml</submodel-path>
   </submodel>
 
   <submodel>
     <name>M-61 20 mm cannon2</name>
-    <model>Aircraft/Tornado/Models/Effects/guns/apibullet-tracer.xml</model>
+    <model>Aircraft/Tornado-J/Models/Effects/guns/apibullet-tracer.xml</model>
     <trigger>controls/armament/trigger</trigger>
     <speed>3380.0</speed>
     <repeat>true</repeat>
@@ -87,7 +87,7 @@
     <collision-report>sim/ai/aircraft/collision/gun</collision-report>
     <impact>true</impact>
     <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-    <submodel-path>Aircraft/Tornado/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+    <submodel-path>Aircraft/Tornado-J/Models/Effects/guns/bullet-submodel.xml</submodel-path>
   </submodel>
   
   

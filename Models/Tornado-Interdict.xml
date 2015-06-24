@@ -1,7 +1,7 @@
 <!-- A wrapper file for the T-38 3D model -->
 
 <PropertyList include="bombableinclude.xml">
- <path>Aircraft/Tornado/Models/Tornado-IDS.ac</path>
+ <path>Aircraft/Tornado-J/Models/Tornado-IDS.ac</path>
  
  <offsets>
    <x-m>8.0</x-m>
@@ -10,11 +10,11 @@
  </offsets>
  
   <!-- MP sound call -->
-  <sound><path>Aircraft/Tornado/Sounds/mp-sound.xml</path></sound>
+  <sound><path>Aircraft/Tornado-J/Sounds/mp-sound.xml</path></sound>
  
   <nasal>
     <load>
-    var livery_update = aircraft.livery_update.new("Aircraft/Tornado/Models/IDSliveries", 10);
+    var livery_update = aircraft.livery_update.new("Aircraft/Tornado-J/Models/IDSliveries", 10);
 
       var self = cmdarg();
 
@@ -71,7 +71,7 @@
     </animation>		
  
   <effect>
-    <inherits-from>Aircraft/Tornado/Models/Effects/tonka_bumpspec</inherits-from>
+    <inherits-from>Aircraft/Tornado-J/Models/Effects/tonka_bumpspec</inherits-from>
     <object-name>Fuselage</object-name>
     <object-name>Fuselage2</object-name>
     <object-name>sweepwing.L</object-name>
@@ -197,7 +197,7 @@
   <!-- Burner Flame -->
 
  <model>
-    <path>Aircraft/Tornado/Models/Effects/flames/burners.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/flames/burners.xml</path>
   </model> 
  
  
@@ -1540,7 +1540,7 @@
   </animation>
   <!-- Interior -->
   <model>
-    <path>Aircraft/Tornado/Models/Interior/interior-ids.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/interior-ids.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> -0.07 </y-m>
@@ -1551,7 +1551,7 @@
  <!-- Taxi light cone -->  
   
 <model>
-<path>Aircraft/Tornado/Models/Lights/light-cone.xml</path>
+<path>Aircraft/Tornado-J/Models/Lights/light-cone.xml</path>
 
 
 <offsets>
@@ -1564,7 +1564,7 @@
 </model>
 
 <model>
-<path>Aircraft/Tornado/Models/Lights/light-cone.xml</path>
+<path>Aircraft/Tornado-J/Models/Lights/light-cone.xml</path>
 
 
 <offsets>
@@ -1582,7 +1582,7 @@
   <!-- nav lights -->
   
   <model>
-    <path>Aircraft/Tornado/Models/Lights/RedLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/RedLight.xml</path>
     <offsets>
       <x-m>  -2.2 </x-m>
       <y-m> -1.65 </y-m>
@@ -1592,7 +1592,7 @@
   
    <model>
    <name>redlight1</name>
-    <path>Aircraft/Tornado/Models/Lights/RedLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/RedLight.xml</path>
     <offsets>
       <x-m>  1.8 </x-m>
       <y-m> -6.5 </y-m>
@@ -1602,7 +1602,7 @@
 
 
   <model>
-    <path>Aircraft/Tornado/Models/Lights/GreenLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/GreenLight.xml</path>
     <offsets>
       <x-m>  -2.2 </x-m>
       <y-m>  1.65 </y-m>
@@ -1612,7 +1612,7 @@
   
   <model>
   <name>greenlight1</name>
-    <path>Aircraft/Tornado/Models/Lights/GreenLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/GreenLight.xml</path>
     <offsets>
       <x-m>  1.8 </x-m>
       <y-m> 6.5 </y-m>
@@ -1621,7 +1621,7 @@
   </model>
 
 <model>
-    <path>Aircraft/Tornado/Models/Lights/beacon.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/beacon.xml</path>
     <offsets>
    <x-m> 0 </x-m>
      <y-m> 0.000 </y-m> 
@@ -1633,7 +1633,7 @@
   <!-- smoke -->
   
   <model>
-    <path>Aircraft/Tornado/Models/Effects/smoke/smokeL.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/smoke/smokeL.xml</path>
     <offsets>
       <x-m>  5.561 </x-m>
       <y-m> -0.483 </y-m>
@@ -1643,7 +1643,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tornado/Models/Effects/smoke/smokeR.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/smoke/smokeR.xml</path>
     <offsets>
       <x-m>  5.561 </x-m>
       <y-m>  0.483 </y-m>
@@ -1653,7 +1653,7 @@
   
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Tornado/Models/Effects/trail/trailL.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/trail/trailL.xml</path>
     <offsets>
       <x-m>  5.561 </x-m>
       <y-m> -0.483 </y-m>
@@ -1663,7 +1663,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tornado/Models/Effects/trail/trailR.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/trail/trailR.xml</path>
     <offsets>
       <x-m>  5.561 </x-m>
       <y-m>  0.483 </y-m>
@@ -1675,7 +1675,7 @@
  
  <model>
 	 <name>aircraft_wash_l</name>
-	 <path>Aircraft/Tornado/Models/aircraft_wash.xml</path>
+	 <path>Aircraft/Tornado-J/Models/aircraft_wash.xml</path>
 	 <condition>
 		 <equals>
 			 <property>controls/state/low_level</property>
@@ -1692,7 +1692,7 @@
  
  <model>
 	 <name>aircraft_wash_r</name>
-	 <path>Aircraft/Tornado/Models/aircraft_wash.xml</path>
+	 <path>Aircraft/Tornado-J/Models/aircraft_wash.xml</path>
 	 <condition>
 		 <equals>
 			 <property>controls/state/low_level</property>
@@ -1741,7 +1741,7 @@
 <!-- FX                                                                  -->
 <!-- ******************************************************************* -->
 	<model>
-		<path>Aircraft/Tornado/Models/fx.xml</path>
+		<path>Aircraft/Tornado-J/Models/fx.xml</path>
 		<offsets>
 			<x-m>0</x-m>
 			<y-m>0</y-m>
@@ -1751,7 +1751,7 @@
 	</model>  
 	
 	 <model>
-		<path>Aircraft/Tornado/Models/Effects/Vapour/Vapour.xml</path>
+		<path>Aircraft/Tornado-J/Models/Effects/Vapour/Vapour.xml</path>
 		<offsets>
 			<x-m>-1.0</x-m>
 			<y-m>-1.0</y-m>
@@ -1763,7 +1763,7 @@
 	</model>
 	
 	<model>
-		<path>Aircraft/Tornado/Models/Effects/Vapour/Vapour.xml</path>
+		<path>Aircraft/Tornado-J/Models/Effects/Vapour/Vapour.xml</path>
 		<offsets>
 			<x-m>-1.0</x-m>
 			<y-m>1.0</y-m>
@@ -1776,7 +1776,7 @@
  
  <model>
  <name>leftvapour</name>
-		<path>Aircraft/Tornado/Models/Effects/Vapour/Vapour2.xml</path>
+		<path>Aircraft/Tornado-J/Models/Effects/Vapour/Vapour2.xml</path>
 		<offsets>
 			<x-m>2</x-m>
 			<y-m>-4</y-m>
@@ -1789,7 +1789,7 @@
 	
 	<model>
 	<name>rightvapour</name>
-		<path>Aircraft/Tornado/Models/Effects/Vapour/Vapour2.xml</path>
+		<path>Aircraft/Tornado-J/Models/Effects/Vapour/Vapour2.xml</path>
 		<offsets>
 			<x-m>2</x-m>
 			<y-m>4</y-m>
@@ -1802,7 +1802,7 @@
   
   <!-- Armament  -->
   <model>
-    <path>Aircraft/Tornado/Models/weapons/gr3loads.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gr3loads.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -1811,7 +1811,7 @@
   </model> 
 
   <model>
-    <path>Aircraft/Tornado/Models/Effects/guns/fire.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/guns/fire.xml</path>
     <offsets>
       <x-m> -5.7 </x-m>
       <y-m>  0.669 </y-m>
@@ -1823,7 +1823,7 @@
   </model>
   
   <model>
-    <path>Aircraft/Tornado/Models/Effects/guns/fire.xml</path>
+    <path>Aircraft/Tornado-J/Models/Effects/guns/fire.xml</path>
     <offsets>
       <x-m> -5.7 </x-m>
       <y-m>  -0.669 </y-m>
@@ -1836,7 +1836,7 @@
   
    <model>
 		<name>fire</name>
-		<path>Aircraft/Tornado/Models/Effects/Engine/Fire.xml</path>
+		<path>Aircraft/Tornado-J/Models/Effects/Engine/Fire.xml</path>
 		<condition>
 			<equals>
 				<property>sim/crashed</property>
@@ -1857,7 +1857,7 @@
   
   <model>
 
-  <path>Aircraft/Tornado/Models/hook.xml</path>
+  <path>Aircraft/Tornado-J/Models/hook.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>

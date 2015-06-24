@@ -68,7 +68,7 @@ All measurements below are in English measurements (feet/pounds), per the FG wik
 
   <submodel>
 	  <name>IRIS-T</name>
-		<model>Aircraft/Tornado/Models/weapons/iris-t.xml</model>
+		<model>Aircraft/Tornado-J/Models/weapons/iris-t.xml</model>
 		<trigger>controls/armament/trigger1</trigger>		
 		<speed>1350</speed>
 		<repeat>true</repeat>
@@ -94,7 +94,7 @@ All measurements below are in English measurements (feet/pounds), per the FG wik
 	
 	<submodel>
 	  <name>AIM120</name>
-		<model>Aircraft/Tornado/Models/weapons/AIM120.xml</model>
+		<model>Aircraft/Tornado-J/Models/weapons/AIM120.xml</model>
 		<trigger>controls/armament/trigger1</trigger>		
 		<speed>1350</speed>
 		<repeat>true</repeat>

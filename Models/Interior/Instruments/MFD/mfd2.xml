@@ -7,7 +7,7 @@
 	<!-- Navigation page -->
 	<model>
 		<name>enav</name>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/MFD/enav-w.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/enav-w.xml</path>
 		<offsets> 
 			<x-m>0.015</x-m>
 			<y-m>-0.001</y-m>
@@ -17,7 +17,7 @@
 
 	<model>
 		<name>Enav Buttons</name>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/MFD/enav1-btn.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/enav1-btn.xml</path>
 		<offsets> 
 			<x-m>0.0</x-m>
 			<y-m>0.0</y-m>
@@ -40,7 +40,7 @@
 	<!-- Engine Management page -->
 	<model>
 		<name>Engine Status</name>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/MFD/eng-status.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/eng-status.xml</path>
 		<offsets> 
 			<x-m>0.002</x-m>
 			<y-m>0.0</y-m>
@@ -50,7 +50,7 @@
 
 	<model>
 		<name>Engine Status Buttons</name>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/MFD/eng-status1-btn.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/eng-status1-btn.xml</path>
 		<offsets> 
 			<x-m>0.0</x-m>
 			<y-m>0.0</y-m>

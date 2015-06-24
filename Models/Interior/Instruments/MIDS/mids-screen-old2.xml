@@ -2,7 +2,7 @@
 
 <PropertyList>
  
- <path>Aircraft/Tornado/Models/Interior/Instruments/MIDS/mids-screen.ac</path>
+ <path>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-screen.ac</path>
   
  <text>
 	 <name>airspeed</name>

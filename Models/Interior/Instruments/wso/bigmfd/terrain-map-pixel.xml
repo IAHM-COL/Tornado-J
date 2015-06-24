@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <PropertyList>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/terrain-map-pixel.ac</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/terrain-map-pixel.ac</path>
 
   <animation n="1">
     <type type="string">textranslate</type>

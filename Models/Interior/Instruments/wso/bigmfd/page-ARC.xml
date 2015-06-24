@@ -11,7 +11,7 @@
 			<w>360</w>
 			<h>360</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/hsiarc.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/hsiarc.png</path>
 				<x1>0</x1>
 				<y1>0</y1>
 				<x2>1</x2>

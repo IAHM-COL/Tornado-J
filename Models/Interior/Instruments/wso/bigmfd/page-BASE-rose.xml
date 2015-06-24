@@ -11,7 +11,7 @@
 			<w>225</w>
 			<h>225</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/hsi2a.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/hsi2a.png</path>
 				<x1>0</x1>
 				<y1>0</y1>
 				<x2>1</x2>
@@ -37,7 +37,7 @@
 			<w>256</w>
 			<h>256</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/maskfull.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/maskfull.png</path>
 				<x1>0</x1>
 				<y1>0</y1>
 				<x2>1</x2>
@@ -50,7 +50,7 @@
 			<w>5</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.841</x1>
@@ -72,7 +72,7 @@
 			<w>14</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.742</x1>
@@ -105,7 +105,7 @@
 			<w>12</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.9472</x1>
@@ -137,7 +137,7 @@
 			<w>30</w>
 			<h>30</h>
 			<texture>
-				<path>Aircraft/Tornado/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.824</x1>

@@ -5,7 +5,7 @@
 <!-- pilots -->
 <model>
 <name>pilot</name>
-    <path>Aircraft/Tornado/Models/Interior/pilot/pilot.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/pilot/pilot.xml</path>
     <offsets>
       <x-m> -4.0 </x-m>
       <y-m> 0.06 </y-m>
@@ -15,7 +15,7 @@
   
   <model>
   <name>pilot1</name>
-    <path>Aircraft/Tornado/Models/Interior/pilot/pilot.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/pilot/pilot.xml</path>
     <offsets>
        <x-m> -2.65 </x-m>
       <y-m> 0.06 </y-m>
@@ -31,7 +31,7 @@
   
  <!-- sticks and pedals -->
 <model>
-    <path>Aircraft/Tornado/Models/Interior/Instruments/common/divers/stick.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/divers/stick.xml</path>
     <offsets>
       <x-m> -4.49 </x-m>
       <y-m> 0.07</y-m>
@@ -41,7 +41,7 @@
   </model>
   
   <model>
-    <path>Aircraft/Tornado/Models/Interior/Instruments/common/divers/pedals.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/divers/pedals.xml</path>
     <offsets>
       <x-m> -4.7 </x-m>
       <y-m> 0.07 </y-m>
@@ -138,7 +138,7 @@
   <!-- Dash-->
  
 <model>
-    <path>Aircraft/Tornado/Models/Interior/cockpitf3.ac</path>
+    <path>Aircraft/Tornado-J/Models/Interior/cockpitf3.ac</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> -0.0 </y-m>
@@ -150,7 +150,7 @@
 
 <model>
   <name>MFD</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MFD2/MFD/mfd_right.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD2/MFD/mfd_right.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.06</y-m>
@@ -161,7 +161,7 @@
  <!--
  <model>
   <name>RADAR_SCREEN</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MFD2/MFD/radar-screen.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD2/MFD/radar-screen.xml</path>
   <offsets>
    <x-m>-4.54</x-m>
    <y-m>0.06</y-m>
@@ -172,7 +172,7 @@
 -->
 <model>
   <name>GenericScreen1-right</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/generic-screen1.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/generic-screen1.xml</path>
   <offsets>
    <x-m>-4.57</x-m>
    <y-m>0.235</y-m>
@@ -183,7 +183,7 @@
 
  <model>
   <name>GenericScreen2- left</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MIDS/mids-panel.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-panel.xml</path>
   <offsets>
    <x-m>-4.57</x-m>
    <y-m>-0.095</y-m>
@@ -194,7 +194,7 @@
  
   <model>
   <name>AI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/ai/ai.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/ai/ai.xml</path>
   <offsets>
    <x-m>-4.56</x-m>
    <y-m>-0.095</y-m>
@@ -205,7 +205,7 @@
  
  <model>
   <name>KI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/ki206/ki206.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/ki206/ki206.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>-0.095</y-m>
@@ -216,7 +216,7 @@
  
  <model>
   <name>Altimeter</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/alt/alt/alt.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/alt/alt/alt.xml</path>
    <offsets>
    <x-m>-4.559</x-m>
    <y-m>-0.178</y-m>
@@ -238,7 +238,7 @@
  
  <model>
   <name>ASI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/asi/airspeed.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/asi/airspeed.xml</path>
   <offsets>
    <x-m>-4.58</x-m>
    <y-m>-0.252</y-m>
@@ -249,7 +249,7 @@
  
  <model>
   <name>Gmeter</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/GMeter/gmeter.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/GMeter/gmeter.xml</path>
   <offsets>
    <x-m>-4.564</x-m>
    <y-m>-0.188</y-m>
@@ -260,7 +260,7 @@
  
  <model>
   <name>RPM1</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/rpm/rpm-1.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/rpm/rpm-1.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.2</y-m>
@@ -271,7 +271,7 @@
  
  <model>
   <name>RPM2</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/rpm/rpm-2.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/rpm/rpm-2.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.265</y-m>
@@ -282,7 +282,7 @@
  
  <model>
   <name>eprL</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/epr/eprL.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/epr/eprL.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.2</y-m>
@@ -293,7 +293,7 @@
  
  <model>
   <name>eprR</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/epr/eprR.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/epr/eprR.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.265</y-m>
@@ -305,7 +305,7 @@
  
  <model>
   <name>egt1</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/egt/exh1.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/egt/exh1.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.2</y-m>
@@ -316,7 +316,7 @@
  
  <model>
   <name>egt2</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/egt/exh2.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/egt/exh2.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.265</y-m>
@@ -327,7 +327,7 @@
  
  <model>
   <name>pervent fuel</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/percentfuel/percentfuel.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/percentfuel/percentfuel.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.33</y-m>
@@ -349,7 +349,7 @@
  
  <model>
   <name>VSI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/chronograph/chronograph.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/chronograph/chronograph.xml</path>
   <offsets>
    <x-m>-4.59</x-m>
    <y-m>0.1651</y-m>
@@ -363,7 +363,7 @@
 
  <model>
   <name>fuel flow</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/FuelFlow/FF.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/FuelFlow/FF.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.377</y-m>
@@ -376,7 +376,7 @@
   <!--
  <model>
   <name>fuel control</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/Fuel/fuel.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/Fuel/fuel.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.33</y-m>
@@ -401,7 +401,7 @@
  
  <model>
   <name>trim</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/Trim/trimelevator.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/Trim/trimelevator.xml</path>
   <offsets>
    <x-m>-4.569</x-m>
    <y-m>-0.328</y-m>
@@ -412,7 +412,7 @@
  
  <model>
   <name>flght indicator</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/flightindicator/flight-indicator.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/flightindicator/flight-indicator.xml</path>
   <offsets>
    <x-m>-4.555</x-m>
    <y-m>-0.27</y-m>
@@ -426,7 +426,7 @@
  
  <model>
   <name>Nav</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/nav/A-10-nav-mode-selector.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/nav/A-10-nav-mode-selector.xml</path>
   <offsets>
    <x-m>-4.532</x-m>
    <y-m>0.39</y-m>
@@ -437,7 +437,7 @@
  
  <model>
   <name>ils</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/ils/A-10-ils.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/ils/A-10-ils.xml</path>
   <offsets>
    <x-m>-4.501</x-m>
    <y-m>0.397</y-m>
@@ -448,7 +448,7 @@
  
  <model>
   <name>tacan</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/tacan/ARN-118-tacan.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/tacan/ARN-118-tacan.xml</path>
   <offsets>
    <x-m>-4.4715</x-m>
    <y-m>0.383</y-m>
@@ -459,7 +459,7 @@
  
  <model>
   <name>sas</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/sas/A-10-sas.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/sas/A-10-sas.xml</path>
   <offsets>
    <x-m>-4.428</x-m>
    <y-m>0.385</y-m>
@@ -473,7 +473,7 @@
  
  <model>
   <name>wx radar</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/RDR-160.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/RDR-160.xml</path>
   <offsets>
    <x-m>-3.105</x-m>
    <y-m>0.182</y-m>
@@ -484,7 +484,7 @@
  
  <model>
   <name>wx radar</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/radar-display.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/radar-display.xml</path>
   <offsets>
    <x-m>-3.10</x-m>
    <y-m>0.182</y-m>
@@ -495,7 +495,7 @@
  
  <model>
   <name>wx radar</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/wxradar-hotspots.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/wxradar-hotspots.xml</path>
   <offsets>
    <x-m>-3.105</x-m>
    <y-m>0.182</y-m>
@@ -507,7 +507,7 @@
  
  <model>
   <name>WeaponsSystemsOperatorL</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/wso/wso_mfd-l.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/wso_mfd-l.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.07</y-m>
@@ -531,7 +531,7 @@
   
  <model>
   <name>WeaponsSystemsOperatorR</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/wso/wso_mfd-r.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/wso_mfd-r.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>0.18</y-m>
@@ -542,7 +542,7 @@
  
  <model>
   <name>Altimeter</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/alt/alt/alt.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/alt/alt/alt.xml</path>
   <offsets>
    <x-m>-3.12</x-m>
    <y-m>-0.11</y-m>
@@ -553,7 +553,7 @@
  
  <model>
   <name>ASI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/asi/airspeed.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/asi/airspeed.xml</path>
   <offsets>
    <x-m>-3.12</x-m>
    <y-m>-0.11</y-m>
@@ -575,7 +575,7 @@
  
  <model>
   <name>AI</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/ai/ai.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/ai/ai.xml</path>
   <offsets>
    <x-m>-3.108</x-m>
    <y-m>-0.192</y-m>

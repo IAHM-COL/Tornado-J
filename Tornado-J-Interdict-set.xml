@@ -17,13 +17,13 @@ Tornado yasim config file
   <aero>tornado-yasim</aero>
 
   <startup>
-   <splash-texture>Aircraft/Tornado/splash.png</splash-texture>
+   <splash-texture>Aircraft/Tornado-J/splash.png</splash-texture>
   </startup>
   <systems>
      <!-- Autopilot for use on development FGFS 2.Git--> 
      
 	 <autopilot>
-         <path>Aircraft/Tornado/Systems/autopilot5.xml</path>
+         <path>Aircraft/Tornado-J/Systems/autopilot5.xml</path>
       </autopilot>
 <refuel>
 <type>probe</type>
@@ -61,20 +61,20 @@ Tornado yasim config file
   
   <submodels>
    <serviceable type="bool">1</serviceable>
-   <path>Aircraft/Tornado/submodels2.xml</path>
-   <path>Aircraft/Tornado/Models/weapons/gr3loads.xml</path>
+   <path>Aircraft/Tornado-J/submodels2.xml</path>
+   <path>Aircraft/Tornado-J/Models/weapons/gr3loads.xml</path>
    
 </submodels>
   
  <sound>
    <audible>true</audible>
-   <path>Aircraft/Tornado/Sounds/sound2.xml</path>
+   <path>Aircraft/Tornado-J/Sounds/sound2.xml</path>
   </sound>
 
   
   
   <hud>
-   <path n="1">Aircraft/Tornado/Hud/hud.xml</path>
+   <path n="1">Aircraft/Tornado-J/Hud/hud.xml</path>
    <visibility n="1">true</visibility>
    <palette>
     <color n="0">
@@ -209,7 +209,7 @@ Tornado yasim config file
     </view>
 
   <model>
-   <path>Aircraft/Tornado/Models/Tornado-Interdict.xml</path>
+   <path>Aircraft/Tornado-J/Models/Tornado-Interdict.xml</path>
    <variant type="int">1</variant>
 	<livery>
 	<file type="string">IDS</file>
@@ -438,7 +438,7 @@ Tornado yasim config file
    
    <ai>
       <scenario>
-	   <path>Aircraft/Tornado/AI/EGOD_arrestor_cables.xml</path>
+	   <path>Aircraft/Tornado-J/AI/EGOD_arrestor_cables.xml</path>
 	  </scenario>
     </ai>
 
@@ -550,7 +550,7 @@ Tornado yasim config file
         <path>Aircraft/Generic/generic-electrical.xml</path>
       </electrical>    
 	 <autopilot>
-         <path>Aircraft/Tornado/Systems/autopilot5.xml</path>
+         <path>Aircraft/Tornado-J/Systems/autopilot5.xml</path>
       </autopilot>
   
 <refuel>
@@ -906,16 +906,16 @@ Tornado yasim config file
 
 <nasal>
 	<tornado>
-		<file>Aircraft/Tornado/Nasal/tornado.nas</file>
-		<file>Aircraft/Tornado/Nasal/air-ground.nas</file>
-	<file>Aircraft/Tornado/Nasal/spoilers.nas</file>
-	<!--		<file>Aircraft/Tornado/Nasal/flaps_computer.nas</file>-->
-		<file>Aircraft/Tornado/Nasal/light.nas</file>
-		<file>Aircraft/Tornado/Nasal/IDSliveries.nas</file>
-		<file>Aircraft/Tornado/Nasal/doors.nas</file> 
+		<file>Aircraft/Tornado-J/Nasal/tornado.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/air-ground.nas</file>
+	<file>Aircraft/Tornado-J/Nasal/spoilers.nas</file>
+	<!--		<file>Aircraft/Tornado-J/Nasal/flaps_computer.nas</file>-->
+		<file>Aircraft/Tornado-J/Nasal/light.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/IDSliveries.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/doors.nas</file> 
 	</tornado>
 <low>
-<file>Aircraft/Tornado/Nasal/low.nas</file>
+<file>Aircraft/Tornado-J/Nasal/low.nas</file>
 </low>
 	
 	<tornado-fuel>
@@ -924,22 +924,22 @@ Tornado yasim config file
 	</tornado-fuel>
 		<reversethrust>
 
-    <file>Aircraft/Tornado/Nasal/reverse-thrust.nas</file>
+    <file>Aircraft/Tornado-J/Nasal/reverse-thrust.nas</file>
 
 </reversethrust>
  <rwr>
 <!-- <file>Aircraft/Instruments-3d/rwr/rwr.nas</file> -->
-<file>Aircraft/Tornado/Models/Interior/Instruments/rwr/rwr.nas</file>
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/rwr/rwr.nas</file>
 </rwr>
 <!-- <radardist>
 <file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
 </radardist> -->
 <radar>
-<file>Aircraft/Tornado/Models/Interior/Instruments/Radar/radar.nas</file> 
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/Radar/radar.nas</file> 
     </radar>
 
 <enav>
-<file>Aircraft/Tornado/Nasal/enav.nas</file>
+<file>Aircraft/Tornado-J/Nasal/enav.nas</file>
 </enav>
 
 
@@ -948,12 +948,12 @@ Tornado yasim config file
 	</radardist>
 
 <mfd>
-  <file>Aircraft/Tornado/Nasal/mfd.nas</file>
+  <file>Aircraft/Tornado-J/Nasal/mfd.nas</file>
  </mfd>
  
 <guns>
-      <file>Aircraft/Tornado/Nasal/weapons.nas</file>
-      <file>Aircraft/Tornado/Nasal/revi.nas</file>
+      <file>Aircraft/Tornado-J/Nasal/weapons.nas</file>
+      <file>Aircraft/Tornado-J/Nasal/revi.nas</file>
 </guns>	
 
 </nasal>

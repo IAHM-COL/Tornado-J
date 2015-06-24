@@ -32,7 +32,7 @@
 
  <model>
   <name>GreenLight</name>
-    <path>Aircraft/Tornado/Models/Lights/normal/GreenLight.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/normal/GreenLight.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -42,7 +42,7 @@
   
   <model>
   <name>GreenLight2</name>
-    <path>Aircraft/Tornado/Models/Lights/remb/NavLightR.xml</path>
+    <path>Aircraft/Tornado-J/Models/Lights/remb/NavLightR.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>

@@ -9,7 +9,7 @@
   <!-- pylons -->
   
   <model>
-    <path>Aircraft/Tornado/Models/weapons/pylons.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/pylons.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -26,7 +26,7 @@
   
   <model>
     <name>left-auxtank-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/aux-tank.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/aux-tank.xml</path>
     <offsets>
       <x-m> 0</x-m>
       <y-m> 0</y-m>
@@ -56,7 +56,7 @@
   
   <model>
     <name>left-brimstone-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/brimstone.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/brimstone.xml</path>
     <offsets>
       <x-m> -1.2</x-m>
       <y-m> -0.45</y-m>
@@ -85,7 +85,7 @@
  
   <model>
     <name>left-stormshadow-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/AGM154.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AGM154.xml</path>
     <offsets>
       <x-m> -0</x-m>
       <y-m> -0.45</y-m>
@@ -114,7 +114,7 @@
  
   <model>
     <name>left-alarm-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/alarm.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/alarm.xml</path>
     <offsets>
       <x-m> -0</x-m>
       <y-m> -0.45</y-m>
@@ -143,7 +143,7 @@
 
   <model>
     <name>left-we177-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/WE177B.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/WE177B.xml</path>
     <offsets>
       <x-m> -1.9</x-m>
       <y-m> -0.45</y-m>
@@ -176,7 +176,7 @@
  
 <model>
     <name>left-brimstone-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/brimstone-r.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/brimstone-r.xml</path>
     <offsets>
       <x-m> 1.3</x-m>
       <y-m> -0.45</y-m>
@@ -206,7 +206,7 @@
  
    <model>
     <name>left-pavewayii-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu12.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu12.xml</path>
     <offsets>
       <x-m> 1.5</x-m>
       <y-m> -0.5</y-m>
@@ -237,7 +237,7 @@
   
   <model>
     <name>left-pavewayiii-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu24.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu24.xml</path>
     <offsets>
       <x-m> 0</x-m>
       <y-m> -0.5</y-m>
@@ -268,7 +268,7 @@
   
   <model>
     <name>left-pavewayiv-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu28.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu28.xml</path>
     <offsets>
       <x-m> 1</x-m>
       <y-m> -0.4</y-m>
@@ -299,7 +299,7 @@
   
   <model>
     <name>left-we177-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/WE177B.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/WE177B.xml</path>
     <offsets>
       <x-m> 1.5</x-m>
       <y-m> -0.45</y-m>
@@ -337,7 +337,7 @@
    
   <model>
     <name>left-brimstone-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/brimstone-r.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/brimstone-r.xml</path>
     <offsets>
       <x-m> 1.3</x-m>
       <y-m> 0.5</y-m>
@@ -367,7 +367,7 @@
  
  <model>
     <name>right-pavewayii-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu12.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu12.xml</path>
     <offsets>
       <x-m> 1.5</x-m>
       <y-m> 0.47</y-m>
@@ -398,7 +398,7 @@
   
   <model>
     <name>right-pavewayiii-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu24.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu24.xml</path>
     <offsets>
       <x-m> 0</x-m>
       <y-m> 0.5</y-m>
@@ -429,7 +429,7 @@
   
   <model>
     <name>right-pavewayiv-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/gbu28.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/gbu28.xml</path>
     <offsets>
       <x-m> 1</x-m>
       <y-m> 0.55</y-m>
@@ -459,7 +459,7 @@
   
   <model>
     <name>right-we177-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/WE177B.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/WE177B.xml</path>
     <offsets>
       <x-m> 1.5</x-m>
       <y-m> 0.5</y-m>
@@ -489,7 +489,7 @@
 
    <model>
     <name>right-auxtank-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/aux-tank.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/aux-tank.xml</path>
     <offsets>
       <x-m> 0</x-m>
       <y-m> 1.0</y-m>
@@ -519,7 +519,7 @@
   
  <model>
     <name>right-brimstone-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/brimstone.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/brimstone.xml</path>
     <offsets>
       <x-m> -1.2</x-m>
       <y-m> 0.5</y-m>
@@ -547,7 +547,7 @@
 
  <model>
     <name>right-stormshadow-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/AGM154.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/AGM154.xml</path>
     <offsets>
       <x-m> -0</x-m>
       <y-m> 0.5</y-m>
@@ -575,7 +575,7 @@
 
 <model>
     <name>right-alarm-pos-1</name>
-    <path>Aircraft/Tornado/Models/weapons/alarm.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/alarm.xml</path>
     <offsets>
       <x-m> -0</x-m>
       <y-m> 0.5</y-m>
@@ -604,7 +604,7 @@
 
 <model>
     <name>right-we177-pos-2</name>
-    <path>Aircraft/Tornado/Models/weapons/WE177B.xml</path>
+    <path>Aircraft/Tornado-J/Models/weapons/WE177B.xml</path>
     <offsets>
       <x-m> -1.9</x-m>
       <y-m> 0.5</y-m>

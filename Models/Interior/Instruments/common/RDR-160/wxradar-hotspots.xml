@@ -4,7 +4,7 @@
 <PropertyList>
 
     <name>wxradar hotspots</name>
-    <background>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/pnl.png</background>
+    <background>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/pnl.png</background>
     <w>160</w>
     <h>120</h>
 
@@ -21,7 +21,7 @@
                 </not-equals>
             </condition>
             <texture>
-                <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/bkgrd.png</path>
+                <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/bkgrd.png</path>
                 <x1>0.030</x1>
                 <y1>0.112</y1>
                 <x2>0.979</x2>
@@ -48,7 +48,7 @@
                 </equals>
             </condition>
             <texture>
-                <path>Aircraft/Tornado/Models/Interior/Instruments/common/RDR-160/od_wxradar.png</path>
+                <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/od_wxradar.png</path>
                 <x1>0.0</x1>
                 <y1>0.0</y1>
                 <x2>1.0</x2>

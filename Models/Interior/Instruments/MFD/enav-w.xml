@@ -4,7 +4,7 @@
 
 	<model>
 		<name>enav</name>
-		<path>Aircraft/Tornado/Models/Interior/Instruments/MFD/enav.xml</path>
+		<path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/enav.xml</path>
 		<offsets>
 			<x-m>0.015</x-m>
 			<y-m>-0.001</y-m>

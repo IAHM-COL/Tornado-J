@@ -2,11 +2,11 @@
 <!-- Bump and specular effect-->
 
 <PropertyList>
-  <name>Aircraft/Tornado/Models/Effects/tonka_bumpspec</name>
+  <name>Aircraft/Tornado-J/Models/Effects/tonka_bumpspec</name>
   <inherits-from>Effects/bumpspec</inherits-from>
   <parameters>
     <texture n="2">
-      <image>Aircraft/Tornado/Models/Bumpfiles/tonkabump.png</image>
+      <image>Aircraft/Tornado-J/Models/Bumpfiles/tonkabump.png</image>
       <filter>linear-mipmap-linear</filter>
       <wrap-s>repeat</wrap-s>
       <wrap-t>repeat</wrap-t>

@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+Tornado yasim config file
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>Panavia Tornado F3</description>
+  <author>Heiko Schulz, Markus Zojer, Stuart C</author>
+  <status>V1.5 ALPHA</status>
+ 
+  <flight-model>yasim</flight-model>
+  <aero>tornado-yasim</aero>
+
+<startup>
+   <splash-texture>Aircraft/Tornado-J/splash.png</splash-texture>
+  </startup>
+  <systems>
+     <autopilot>
+         <path>Aircraft/Tornado-J/Systems/autopilot5.xml</path>
+      </autopilot>
+<electrical>
+  <path>Aircraft/Generic/generic-electrical.xml</path>
+</electrical>	  
+	  
+<refuel>
+<type>probe</type>
+<serviceable type="bool">true</serviceable>
+</refuel>	  
+</systems> 
+
+<mp-systems>
+  <radar-enabled type="bool">true</radar-enabled>
+  <ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
+  <combat-enabled type="bool">true</combat-enabled>
+</mp-systems>
+
+<multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                      <!-- 0 immat -->
+        <int type="int" n="1">  0 </int>                                      <!-- 1 immat -->
+        <int type="int" n="2">  0 </int>                                      <!-- 2 immat -->
+        <int type="int" n="3">  0 </int>                                      <!-- 3 immat -->
+        <int type="int" n="4">  0 </int>                                      <!-- 4 immat -->
+        <int type="int" n="5">  0 </int>                                      <!-- 5 immat -->
+        <int type="bool" n="6"> 1 </int>                                      <!-- 6 smoke/bomb/torpedo -->
+        <int type="int" n="7">  0 </int>                                      <!-- 7 color -->
+        <int n="8" alias="/systems/electrical/outputs/nav-lights">  0 </int>  <!-- 8 nav-lights -->
+        <int n="9" alias="/sim/model/lights/beacon/state">  false </int>      <!-- 9 strobe-lights -->
+        <int n="10" alias="/controls/electric/key-pos">  0 </int>             <!-- 10 key position -->
+        <float n="2" alias="/position/gear-agl-m">  0 </float>                <!-- 11 altitude for MP shadow -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+		<float n="3" alias="/surface-positions/wing-sweep-pos-norm"/>
+		<float n="4" alias="/sim/model/canopy-positions/Canopy/position-norm"/>
+		<string n="0" alias="/pilot/cockpit-label"/>
+      </generic>
+    </multiplay>
+
+<submodels>
+   <serviceable type="bool">1</serviceable>
+   <path>Aircraft/Tornado-J/submodels.xml</path>
+   <path>Aircraft/Tornado-J/Models/weapons/f3loads.xml</path>
+   <!--<path>Aircraft/Tornado-J/Models/Effects/guns/submodels.xml</path>
+   <path>Aircraft/Tornado-J/Models/Stores/submodels.xml</path>-->
+</submodels>
+
+  
+ <sound>
+   <audible>true</audible>
+   <path>Aircraft/Tornado-J/Sounds/sound2.xml</path>
+ </sound>
+
+ 
+  <hud>
+   <path n="1">Aircraft/Tornado-J/Hud/hud.xml</path>
+   <visibility n="1">true</visibility>
+   <palette>
+    <color n="0">
+     <alpha type="float">0.85</alpha>
+     <antialiased type="bool">true</antialiased>
+     <brightness type="float">0.85</brightness>
+     <transparent type="bool">true</transparent>
+     <red type="float">0.38</red>
+     <green type="float">1.0</green>
+     <blue type="float">0.22</blue>
+    </color>
+    <color n="1">
+     <alpha type="float">0.85</alpha>
+     <antialiased type="bool">true</antialiased>
+     <brightness type="float">0.85</brightness>
+     <transparent type="bool">true</transparent>
+     <red type="float">1.0</red>
+     <green type="float">0.2</green>
+     <blue type="float">0.0</blue>
+    </color>
+   </palette>
+   <clipping>
+            <left type="double">-85</left>
+            <right type="double">75</right>
+            <top type="double">75</top>
+            <bottom type="double">-150</bottom>
+         </clipping>
+  </hud>
+
+  <view n="0">
+  <name>Pilots View</name>
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>0.99</pitch-offset-deg>
+    <x-offset-m archive="y">0.0</x-offset-m>
+    <y-offset-m archive="y">-0.05</y-offset-m>
+    <z-offset-m archive="y">3.93</z-offset-m>
+   </config>
+  </view>
+  
+  <view n="100">
+  <name>Weapons officer View</name>
+  <internal archive="y">true</internal>
+	<type>lookfrom</type>
+	<config>
+	<from-model type="bool">true</from-model>
+	<from-model-idx type="int">0</from-model-idx>
+    <x-offset-m archive="y">0.0</x-offset-m>
+    <y-offset-m archive="y">-0.05</y-offset-m>
+    <z-offset-m archive="y">5.43</z-offset-m>
+	<limits>
+	   <left>
+	  <heading-max-deg>-100</heading-max-deg>
+<x-offset-threshold-deg>0</x-offset-threshold-deg>
+<x-offset-max-m>0</x-offset-max-m>
+</left>
+<right>
+<heading-max-deg>100</heading-max-deg>
+<x-offset-threshold-deg>0</x-offset-threshold-deg>
+<x-offset-max-m>0</x-offset-max-m>
+</right>
+<enabled>1</enabled>
+</limits>
+   </config>
+  </view>
+  
+  
+  
+    <view n="101">
+	   <name>Pilot cam</name>
+        <internal archive="y">false</internal>
+        <config>
+		 <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+          <x-offset-m archive="y">0.0</x-offset-m>
+    <y-offset-m archive="y">-0.05</y-offset-m>
+    <z-offset-m archive="y">3.53</z-offset-m>
+          <pitch-offset-deg>0</pitch-offset-deg>
+		  <heading-offset-deg>180</heading-offset-deg>
+          <default-field-of-view-deg>95</default-field-of-view-deg>
+        </config>
+      </view>
+  
+ <!-- Shift the camera target point back -->
+    <view n="1">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+
+    <view n="2">
+      <config>
+        <x-offset-m archive="y" type="double">8.0</x-offset-m>
+        <z-offset-m archive="y">-8.7</z-offset-m>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+
+    <view n="3">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+	
+	<view n="4">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+	
+	<view n="5">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+	
+	<view n="6">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+	
+	<view n="7">
+      <config>
+        <target-z-offset-m archive="y" type="double">10.0</target-z-offset-m>
+		<pitch-offset-deg archive="y">6</pitch-offset-deg>
+      </config>
+    </view>
+
+  <model>
+   <path>Aircraft/Tornado-J/Models/Tornado-F3.xml</path>
+ <variant type="int">1</variant>
+	<livery>
+	<file type="string">F3</file>
+	</livery>
+  </model>
+
+  <chase-distance-m>-28</chase-distance-m>
+  
+  <airport>
+        <runways> 
+              <start-offset-m>12</start-offset-m>
+        </runways>
+  </airport>
+  
+  <rendering>
+    <redout>
+      <enabled type="bool" userarchive="y">true</enabled>
+      <parameters>
+        <blackout-onset-g>6.0</blackout-onset-g>
+        <blackout-complete-g>9</blackout-complete-g>
+      </parameters>
+    </redout>
+  </rendering>
+
+<wing-sweep>
+  <setting>0.0</setting>
+  <setting>0.5</setting>
+  <setting>1.00</setting>
+</wing-sweep>
+
+  <flaps>
+   <setting>0.000</setting>
+   <setting>0.500</setting> 
+   <setting>1.000</setting> 
+  </flaps>
+  
+  <weight n="0">
+	    <name>wing pos fwd</name>
+	    <weight-lb type="float">4000</weight-lb>
+    </weight>
+    <weight n="1">
+	    <name>wing pos aft</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="2">
+	    <name>fuelwing fwd</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="3">
+	    <name>fuelwing aft</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="4">
+	    <name>fuel left ext fwd</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="5">
+	    <name>fuel left ext aft</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="6">
+	    <name>fuel right ext fwd</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+    <weight n="7">
+	    <name>fuel right ext aft</name>
+	    <weight-lb type="float">0</weight-lb>
+    </weight>
+
+	<weight n="8">
+        <name>pylon1.L</name>
+        <weight-lb>0</weight-lb>
+        <selected>none</selected>
+     <opt>
+       <name>none</name>
+       <lbs>0</lbs>
+    </opt>
+    <opt>
+       <name>AIM-120</name>
+       <lbs>335.0</lbs>
+    </opt>
+   </weight>
+   
+   <weight n="9">
+        <name>pylon2.L</name>
+		<tank>9</tank>
+        <weight-lb>0</weight-lb>
+        <selected>none</selected>
+    <opt>
+       <name>ALARM</name>
+       <lbs>590.0</lbs>
+    </opt>
+	<opt>
+ <name>left-DropTank</name>
+ <lbs>2645.0</lbs>
+ <gals>396</gals>
+  </opt>
+  <opt>
+       <name>none</name>
+       <lbs>0</lbs>
+    </opt>
+    <opt>
+       <name>AIM-120</name>
+       <lbs>335.0</lbs>
+    </opt>
+	
+   </weight>
+   
+   <weight n="10">
+        <name>pylon2.R</name>
+		<tank>10</tank>
+        <weight-lb>0</weight-lb>
+        <selected>none</selected>
+     <opt>
+       <name>none</name>
+       <lbs>0</lbs>
+    </opt>
+   <opt>
+       <name>ALARM</name>
+       <lbs>590.0</lbs>
+    </opt>
+	<opt>
+ <name>right-DropTank</name>
+ <lbs>2645.0</lbs>
+ <gals>396</gals>
+  </opt> 
+  <opt>
+       <name>AIM-120</name>
+       <lbs>335.0</lbs>
+    </opt>
+	
+   </weight>
+   
+   <weight n="11">
+        <name>pylon1.R</name>
+        <weight-lb>0</weight-lb>
+        <selected>none</selected>
+     <opt>
+       <name>none</name>
+       <lbs>0</lbs>
+    </opt>
+    <opt>
+       <name>AIM-120</name>
+       <lbs>335.0</lbs>
+    </opt>
+   </weight>
+	
+	 <ai>
+      <scenario>
+	   <path>Aircraft/Tornado-J/AI/EGOD_arrestor_cables.xml</path>
+	  </scenario>
+    </ai>
+<ai>
+   <scenario>refueling_demo</scenario>
+</ai>
+
+  <!-- turns off GA tower communications -->
+  <ATC>
+   <enabled type="bool">false</enabled>
+  </ATC>
+
+  <!-- turns off GA traffic -->
+  <ai-traffic>
+   <enabled type="bool">false</enabled>
+  </ai-traffic>
+
+  <help>
+    <title>Tornado F3</title>
+      <key>
+        <name>j/k</name>
+        <desc>decrease/increase spoilers</desc>
+      </key>
+      <key>
+	      <name>d</name>
+	      <desc>sweep wing back</desc>
+      </key>
+      <key>
+	      <name>D</name>
+	      <desc>sweep wing fwd</desc>
+      </key>
+      <key>
+	      <name>CTRL B</name>
+	      <desc>toggle airbrakes</desc>
+      </key>
+      <key>
+	      <name>Keypad delete</name>
+	      <desc>toggle reverser</desc>
+      </key>
+      <key>
+        <name>Shift-Q</name>
+        <desc>fuel cutoff switch or lever</desc>
+      </key>
+      
+      <key>
+        <name>Shift-c</name>
+        <desc>Close/Open Canopy</desc>
+      </key>
+      
+      <key>
+        <name>Shift-f</name>
+        <desc>extract FuelHose</desc>
+      </key>
+	  
+	   <key>
+        <name>l</name>
+        <desc>Launch flares</desc>
+      </key>
+	  
+	   <key>
+     <name>o/O</name>
+     <desc>Emergency Arresting Hook deployment</desc>
+   </key>
+	    
+      
+      <line>Takeoff:</line>
+      <line>1/2 Flaps, Full Afterburner</line>
+      <line>Takoff speed: about 165kts</line>
+      <line>Takoff dist(min): ~ 2700ft</line>
+      <line>Landing:</line>
+      <line>Full Flaps, Approach speed: ~ 170kts</line>
+      <line>Touchdown @ 145-165kts (dep on weight)</line>
+      <line>Apply airbrake and reverser</line>
+      <line>Landing dist(min): ~ 2100ft</line>
+      <line>Landing, Takeoff with 25 wingsweep</line>
+      <line>Autobrakes: Tab-key:0=off, 4=max, 4=reject takeoff</line>
+      <line> </line>
+      <line> </line>
+      <line>Flight Performance:</line>
+      <line>Wingsweep 25: - mach 0.7</line>
+      <line>Wingsweep 45: mach 0.6 -0.9</line>
+      <line>Wingsweep 67: mach 0.8 -1.3 @sl</line>
+      <line>Wingsweep 67: - mach 2.2 @ 36000ft</line>
+      <line>Max. g-load: 7.5</line>
+	  <line> </line>
+      <line> </line>
+	  <line>EXTERNAL STORES </line>
+      <line>Only the Fuselage stoes are currently selectable. </line>
+	  <line>You should NOT use the Droptanks or ALARM</line>
+      <line>with AIM-120's. The Larger pilons over lap the  </line>
+	  <line>forward AIM-120 mounting positions.  </line>
+      <line> </line>
+      <line>Good Luck!</line>
+  </help>
+  
+  <menubar>
+	<default>
+	<menu n="10">
+      <label>Tornado F3</label>
+      <enabled type="bool">true</enabled>
+      <item>
+        <label>Select Livery</label>
+        <binding>
+          <command>nasal</command>
+          <script>aircraft.livery.dialog.toggle()</script>
+        </binding>
+      </item>
+       </menu>
+	</default>
+</menubar>
+
+ </sim>
+ 
+ <systems>
+     <!-- Autopilot for use on development FGFS 2.Git--> 
+     <electrical>
+        <path>Aircraft/Generic/generic-electrical.xml</path>
+      </electrical>
+	 <autopilot>
+         <path>Aircraft/Tornado-J/Systems/autopilot5.xml</path>
+      </autopilot>
+<refuel>
+<type>probe</type>
+<serviceable type="bool">true</serviceable>
+</refuel>	  
+
+
+  </systems> 
+
+ <consumables>
+  <fuel>
+   <tank n="0">
+    <level-gal_us archive="y">290</level-gal_us>
+   </tank>
+   <tank n="1">
+    <level-gal_us archive="y">290</level-gal_us>
+   </tank>
+   
+   <tank n="8">
+    <level-gal_us archive="y">240</level-gal_us>
+   </tank>
+  <tank n="9">
+    <name>left-DropTank</name>
+    <selected type="bool">false</selected>
+    <level-gal_us>396</level-gal_us>
+  </tank>
+  <tank n="10">
+   <name>right-DropTank</name>
+   <selected type="bool">false</selected>
+   <level-gal_us>396</level-gal_us>
+  </tank>
+  </fuel>
+ </consumables>
+
+
+ <controls>
+    <flight>
+   <flaps>0.5</flaps>
+   <wing-sweep>1.0</wing-sweep>
+   <autospeedbrakes-armed type="string">true</autospeedbrakes-armed>
+     </flight>
+     <gear>
+			<autobrakes type="int">5</autobrakes>
+			<!-- 0=off,  4=MAX, 5=RTO -->
+			<brake-parking type="double">1.0</brake-parking>
+		</gear>
+<armament>
+			<station n="8">
+				<release type="bool">false</release>
+			</station>
+			<station n="9">
+				<release type="bool">false</release>
+			</station>
+			<station n="10">
+				<release type="bool">false</release>
+			</station>
+			<station n="11">
+				<release type="bool">false</release>
+			</station>
+		
+</armament>			
+</controls>
+
+ <engines>
+  <engine n="0">
+    <running>true</running>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+    <reverser-position type="double">0.000000</reverser-position>
+  </engine>
+ </engines>
+
+<input>
+    <keyboard include="Nasal/f3-keyboard.xml"/>
+</input>
+
+<environment>
+    <turbulence>
+      <use-cloud-turbulence>true</use-cloud-turbulence>
+    </turbulence>
+  </environment>
+
+<instrumentation>
+
+  <rwr>
+ <display-lighting-intens type="double">0.4</display-lighting-intens>
+ <symbology-lighting-intens type="double">1</symbology-lighting-intens>
+</rwr>
+
+<enav><selected type="int">3</selected></enav>
+ <radar>
+  <range type="int" archive="y">40</range>
+  <range-factor type="double" archive="n">0.001888</range-factor>
+  <minimized type="bool" archive="y">false</minimized>
+  <selected type="int">3</selected>
+
+      <!-- inicio en pruebas -->
+  <enabled type="bool">true</enabled>
+  <az-field type="double">120</az-field>
+  <range type="double">150</range>
+  <range-selected type="double">50</range-selected>
+  <radar2-range type="double">150</radar2-range>
+  <display-rdr type="bool">true</display-rdr>
+  <radar-standby type="int">3</radar-standby>
+<mode>
+  <rws type="bool">false</rws>
+  <tws-auto type="bool">true</tws-auto>
+</mode>
+
+</radar> 
+
+    <terrain-radar>
+      <hi-elev>
+        <alt-ft type="double">-9999.9</alt-ft>
+        <lat-deg type="double">-9999.9</lat-deg>
+        <lon-deg type="double">-9999.9</lon-deg>
+        <dist-m type="double">-9999.9</dist-m>
+        <collision-status type="string">initialised</collision-status>
+      </hi-elev>
+      <settings>
+        <mode type="string">extend</mode>
+        <state type="string">off</state>
+        <range-m type="double">2500</range-m>
+        <step-m type="double">250</step-m>
+        <max-climb-rate-fps type="double">120</max-climb-rate-fps>
+        <hi-elev-markers type="bool">false</hi-elev-markers>
+      </settings>
+    </terrain-radar>
+</instrumentation>
+
+<nasal>
+	<tornado>
+		<file>Aircraft/Tornado-J/Nasal/tornado.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/air-ground.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/spoilers.nas</file>
+	<!--	<file>Aircraft/Tornado-J/Nasal/flaps_computer.nas</file>-->
+		<file>Aircraft/Tornado-J/Nasal/light.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/F3liveries.nas</file>
+		<file>Aircraft/Tornado-J/Nasal/doors.nas</file>
+		</tornado>
+<low>
+<file>Aircraft/Tornado-J/Nasal/low.nas</file>
+</low>
+<guns>
+      <file>Aircraft/Tornado-J/Nasal/weapons.nas</file>
+      <file>Aircraft/Tornado-J/Nasal/revi.nas</file>
+</guns>	
+	<tornado-fuel>
+		<module>fuel-aar</module>
+		<file>Aircraft/Generic/aar.nas</file>
+	</tornado-fuel>
+		<reversethrust>
+
+    <file>Aircraft/Tornado-J/Nasal/reverse-thrust.nas</file>
+
+</reversethrust>
+<wso-mfd>
+<file>Aircraft/Tornado-J/Nasal/wso_mfd.nas</file>
+</wso-mfd>
+<MFD>
+<file>Aircraft/Tornado-J/Nasal/mfd.nas</file>
+</MFD>
+<!--
+<rwr>
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/rwr/rwr.nas</file>
+</rwr>
+-->
+<wx-Radar>
+<!-- <file>Aircraft/Tornado-J/Models/Interior/Instruments/wso/radar.nas</file> -->
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/common/RDR-160/RDR160.nas</file>
+</wx-Radar>
+
+<rwr>
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/MFD2/MFD/rwr.nas</file>
+</rwr>
+<radardist>
+<file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
+</radardist>
+<radar>
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/MFD2/MFD/radar.nas</file> 
+</radar>
+<radar2>
+<file>Aircraft/Tornado-J/Models/Interior/Instruments/MFD2/MFD/radar2.nas</file> 
+</radar2>
+
+<enav>
+<file>Aircraft/Tornado-J/Nasal/enav.nas</file>
+</enav>
+
+
+
+
+</nasal>
+
+</PropertyList>

@@ -92,7 +92,7 @@
   <!-- Dash-->
  
 <model>
-    <path>Aircraft/Tornado/Models/Interior/cockpit.ac</path>
+    <path>Aircraft/Tornado-J/Models/Interior/cockpit.ac</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> -0.0 </y-m>
@@ -103,7 +103,7 @@
 <!-- Front Cockpit -->
 <model>
   <name>MFD</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MFD/mfd2.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/mfd2.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.06</y-m>
@@ -114,7 +114,7 @@
 
 <model>
   <name>MIDS</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MIDS/mids-panel.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-panel.xml</path>
   <offsets>
    <x-m>-7.35</x-m>
    <y-m>0.1</y-m>

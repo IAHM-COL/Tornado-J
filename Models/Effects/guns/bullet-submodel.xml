@@ -4,7 +4,7 @@
 
   <submodel>
     <name>bullet splash</name>
-    <model>Aircraft/Tornado/Models/Effects/guns/explosion.xml</model>
+    <model>Aircraft/Tornado-J/Models/Effects/guns/explosion.xml</model>
     <speed>0</speed>
     <repeat>false</repeat>
     <delay>0</delay>

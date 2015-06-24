@@ -2,7 +2,7 @@
 
 <PropertyList> 
  <path>mids-panel.ac</path>
- <background>Aircraft/Tornado/Models/Interior/Instruments/MIDS/mids-screen.png</background>
+ <background>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-screen.png</background>
  
  <animation>
    <type>range</type>
@@ -134,7 +134,7 @@
 <!-- Display -->
 
 <panel>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/MIDS/mids-screen.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-screen.xml</path>
   <bottom-left>
    <x-m>-0.452</x-m>
    <y-m>-0.315</y-m>

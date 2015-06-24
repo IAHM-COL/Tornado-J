@@ -6,7 +6,7 @@ hacked by maggse
 
 <PropertyList>
 
- <path>Aircraft/Tornado/Models/Interior/Instruments/radar2/nd_b1_radar_big.ac</path>
+ <path>Aircraft/Tornado-J/Models/Interior/Instruments/radar2/nd_b1_radar_big.ac</path>
 
 <animation>
     <name>Alpha Sort</name>

@@ -1,2 +1,2 @@
 # liveries =========================================================
-aircraft.livery.init("Aircraft/Tornado/Models/F3liveries");
+aircraft.livery.init("Aircraft/Tornado-J/Models/F3liveries");
