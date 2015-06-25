@@ -17,7 +17,7 @@ Tornado yasim config file
   <aero>tornado-yasim</aero>
 
   <startup>
-   <splash-texture>Aircraft/Tornado-J/splash.png</splash-texture>
+   <splash-texture>Aircraft/Tornado-J/TornadoSplash.png</splash-texture>
   </startup>
   <systems>
      <!-- Autopilot for use on development FGFS 2.Git--> 

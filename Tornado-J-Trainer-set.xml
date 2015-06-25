@@ -33,7 +33,7 @@
 		<engine>RB199-34R</engine>
 
 		<startup>
-			<splash-texture>Aircraft/Tornado-J/splash.png</splash-texture>
+			<splash-texture>Aircraft/Tornado-J/TornadoSplash.png</splash-texture>
 		</startup>
 
 		<!-- Settings for model -->
