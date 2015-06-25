@@ -63,7 +63,7 @@
  
  <!-- Screen -->
 <panel>
-  <path>Aircraft/eurofighter/Models/Instruments/MIDS/mids-screen.xml</path>
+  <path>Aircraft/Tornado-J/Models/Interior/Instruments/MIDS/mids-screen.xml</path>
   <bottom-left>
    <x-m>-0.452</x-m>
    <y-m>-0.315</y-m>

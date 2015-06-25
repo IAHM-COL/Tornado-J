@@ -434,7 +434,7 @@
 		<!-- engine>
 			<name>Reheat internal</name>
 			<mode>looped</mode>
-			<path>Aircraft/eurofighter/Sounds/Samples/reheat.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Samples/reheat.wav</path>
 			<condition>
 				<and>
 					<property>/sim/current-view/internal</property>

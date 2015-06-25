@@ -49,7 +49,7 @@
     </panel>
     
     <!--panel>
-        <path>Aircraft/A320neo/Models/Instruments/ND/Display-text.xml</path>
+        <path>Aircraft/Tornado-J/Models/Interior/Instruments/wso/bigmfd/Display-text.xml</path>
         <bottom-left>
             <x-m>0.002</x-m>
             <y-m>-0.088</y-m>

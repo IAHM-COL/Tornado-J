@@ -7,7 +7,7 @@
 
 		<load>
 			<![CDATA[
-			print("Loading F-15E ", cmdarg().getPath());
+			print("Loading Tornado-J ", cmdarg().getPath());
 
       var nodeName = cmdarg().getPath(); 
 
@@ -249,7 +249,7 @@
 		</load>
 		<unload>
 			<![CDATA[
-			print("Unload F-15E.");
+			print("Unload Tornado-J");
       var nodeName= cmdarg().getPath();  
       bombable.de_overall_initialize( nodeName );
       bombable.initialize_del( nodeName );

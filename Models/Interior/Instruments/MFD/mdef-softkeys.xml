@@ -6,7 +6,7 @@
  
  <model>
 		<name>nav</name>
-    <path>Aircraft/eurofighter/Models/Instruments/MDEF/nav.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/nav.xml</path>
   <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>
@@ -27,8 +27,12 @@
 	
 	
     <model>MDEF
-	<name>xpdr</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/MDEF/xpdr.xml</path>
+    <name>xpdr</name>
+    <!--
+	I was unable to find a file xpdr.xml in the Aircraft path for FG!!
+	IH-COL JUNE 2015
+    -->
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MDEF/xpdr.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>

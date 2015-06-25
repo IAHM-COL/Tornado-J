@@ -201,7 +201,7 @@
 		<ignition>
 			<name>Reheat Ignition</name>
 			<mode>once</mode>
-			<path>Aircraft/BAC-TSR2-GR3/Sounds/reheat-ignite.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/reheat-ignite.wav</path>
 			<condition>
 				<not>
 					<property>/engines/engine/out-of-fuel</property>
@@ -299,7 +299,7 @@
 		<!-- engine>
 			<name>Reheat internal</name>
 			<mode>looped</mode>
-			<path>Aircraft/BAC-TSR2-GR3/Sounds/Samples/reheat.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Samples/reheat.wav</path>
 			<condition>
 				<and>
 					<property>/sim/current-view/internal</property>
@@ -503,7 +503,7 @@
 		<wind>
 			<name>wind</name>
 			<mode>looped</mode>
-			<path>Aircraft/BAC-TSR2-GR3/Sounds/Samples/wind.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Samples/wind.wav</path>
 			<property>/velocities/airspeed-kt</property>
 			<volume>
 				<property>/position/altitude-ft</property>
@@ -528,7 +528,7 @@
 		<!-- no binding yet? 
 		<stall>
 			<name>stall</name>
-			<path>Aircraft/BAC-TSR2-GR3/Sounds/Samples/stall.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Samples/stall.wav</path>
 			<property>/sim/alarms/stall-warning</property>
 			<volume>
 				<property>/velocities/airspeed-kt</property>
