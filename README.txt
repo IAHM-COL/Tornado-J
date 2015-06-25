@@ -1,5 +1,8 @@
-=======================================================
-FGUK HANGAR
-=======================================================
-http://fguk.eu/index.php/hangar/viewcategory/8-military-jets
-========================================================
+JWocky's PANAVIA TORNADO
+-------------------------
+
+![Splash](https://raw.githubusercontent.com/FGMEMBERS/Tornado-J/master/splash.png)
+
+Refurbished for the USA Tour Consortium, June 2015
+Original work by the FGUK
+
