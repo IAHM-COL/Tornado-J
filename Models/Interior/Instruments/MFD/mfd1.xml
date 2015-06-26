@@ -6,7 +6,7 @@
 <!-- Navigation page -->
 	<model>
 		<name>enav</name>
-    <path>Aircraft/eurofighter/Models/Instruments/waypoint.xml</path>
+    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/waypoint.xml</path>
   <offsets> 
 	      <x-m>0.002</x-m>
 	      <y-m>0.0</y-m>
@@ -15,7 +15,7 @@
 	</model>
     <model>
 	<name>Enav Buttons</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/wpt0-btn.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/wpt0-btn.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>
@@ -40,7 +40,7 @@
 <!-- Engine Management page -->
     <model>
 	<name>Engine Status</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/eng-status.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/eng-status.xml</path>
 	    <offsets> 
 	      <x-m>0.002</x-m>
 	      <y-m>0.0</y-m>
@@ -49,7 +49,7 @@
 	</model>
     <model>
 	<name>Engine Status Buttons</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/eng-status0-btn.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/eng-status0-btn.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>
@@ -71,7 +71,7 @@
 <!-- Radar page -->
     <model>
 	<name>radar</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/radar.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/radar.xml</path>
 	    <offsets> 
 	      <x-m>0.015</x-m>
 	      <y-m>0.0091</y-m>
@@ -108,7 +108,7 @@
 <!-- Hydraulic page -->
     <model>
 	<name>Hydraulic</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/hydraulic.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/hydraulic.xml</path>
 	    <offsets> 
 	      <x-m>0.002</x-m>
 	      <y-m>0.0</y-m>
@@ -117,7 +117,7 @@
 	</model>
     <model>
 	<name>Hydraulic Buttons</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/hydraulic0-btn.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/hydraulic0-btn.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>
@@ -139,7 +139,7 @@
 <!-- Fuel page -->
     <model>
 	<name>Fuel</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/fuel.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/Fuel/fuel.xml</path>
 	    <offsets> 
 	      <x-m>0.002</x-m>
 	      <y-m>0.0</y-m>
@@ -148,7 +148,7 @@
 	</model>
     <model>
 	<name>Fuel Buttons</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/fuel0-btn.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/common/Fuel/fuel0-btn.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>
@@ -187,7 +187,7 @@
 <!-- Frequencies page -->
 	<model>
 	 <name>freq</name>
-     <path>Aircraft/eurofighter/Models/Instruments/frequencies.xml</path>
+     <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/frequencies.xml</path>
      <offsets> 
 	  <x-m>0.002</x-m>
 	  <y-m>0.0</y-m>
@@ -196,7 +196,7 @@
 	</model>
     <model>
 	 <name>Freq Buttons</name>
-	 <path>Aircraft/eurofighter/Models/Instruments/freq0-btn.xml</path>
+	 <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/freq0-btn.xml</path>
 	 <offsets> 
 	  <x-m>0.0</x-m>
 	  <y-m>0.0</y-m>
@@ -219,7 +219,7 @@
 <!-- Situational Analysis page -->
     <model>
 	<name>Situana</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/situana.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/situana.xml</path>
 	    <offsets> 
 	      <x-m>0.002</x-m>
 	      <y-m>0.0</y-m>
@@ -228,7 +228,7 @@
 	</model>
     <model>
 	<name>Situana Buttons</name>
-	    <path>Aircraft/eurofighter/Models/Instruments/situana0-btn.xml</path>
+	    <path>Aircraft/Tornado-J/Models/Interior/Instruments/MFD/situana0-btn.xml</path>
 	    <offsets> 
 	      <x-m>0.0</x-m>
 	      <y-m>0.0</y-m>

@@ -38,7 +38,7 @@
 			<w>5</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.841</x1>
@@ -60,7 +60,7 @@
 			<w>14</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.742</x1>
@@ -94,7 +94,7 @@
 			<w>12</w>
 			<h>14</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.9472</x1>
@@ -126,7 +126,7 @@
 			<w>30</w>
 			<h>30</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.824</x1>
@@ -174,7 +174,7 @@
 			<w>23</w>
 			<h>120</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.634</x1>
@@ -224,7 +224,7 @@
 			<w>23</w>
 			<h>120</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.531</x1>
@@ -273,7 +273,7 @@
 			<w>23</w>
 			<h>120</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0</x1>
@@ -319,7 +319,7 @@
 			<w>4</w>
 			<h>77</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.289</x1>
@@ -366,7 +366,7 @@
 			<w>7</w>
 			<h>77</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.121</x1>
@@ -423,7 +423,7 @@
 			<w>23</w>
 			<h>120</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.424</x1>
@@ -473,7 +473,7 @@
 			<w>23</w>
 			<h>120</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.322</x1>
@@ -740,7 +740,7 @@
 			<w>10</w>
 			<h>20</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.634</x1>
@@ -774,7 +774,7 @@
 			<w>10</w>
 			<h>20</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.424</x1>
@@ -1007,7 +1007,7 @@
 			<w>10</w>
 			<h>20</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.634</x1>
@@ -1041,7 +1041,7 @@
 			<w>10</w>
 			<h>20</h>
 			<texture>
-				<path>Aircraft/A320neo/Models/Instruments/ND/res/A320neo_symbols.png</path>
+				<path>Aircraft/Tornado-J/Models/Interior/Instruments/ND/res/A320neo_symbols.png</path>
 
 				<!-- Orign is down left-->
 				<x1>0.424</x1>

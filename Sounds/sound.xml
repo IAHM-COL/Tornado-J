@@ -434,7 +434,7 @@
 		<!-- engine>
 			<name>Reheat internal</name>
 			<mode>looped</mode>
-			<path>Aircraft/eurofighter/Sounds/Samples/reheat.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Samples/reheat.wav</path>
 			<condition>
 				<and>
 					<property>/sim/current-view/internal</property>
@@ -539,7 +539,7 @@
  
 		<voice-lowheight>
 			<name>voice-lowheight</name>
-			<path>/Aircraft/Tornado-J/Sounds/Voice/lowheight.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Voice/lowheight.wav</path>
 			<type>avionics</type>
 			<mode>once</mode>
 			<condition>
@@ -556,7 +556,7 @@
  
 		<voice-frequency>
 			<name>voice-frequency</name>
-			<path>/Aircraft/Tornado-J/Sounds/Voice/frequency.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Voice/frequency.wav</path>
 			<type>avionics</type>
 			<mode>once</mode>
 			<condition>
@@ -573,7 +573,7 @@
  
 		<voice-wingtanks>
 			<name>voice-wingtanks</name>
-			<path>/Aircraft/Tornado-J/Sounds/Voice/wingtanks.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Voice/wingtanks.wav</path>
 			<type>avionics</type>
 			<mode>once</mode>
 			<condition>
@@ -614,7 +614,7 @@
  
 		<voice-centretank>
 			<name>voice-centretank</name>
-			<path>/Aircraft/Tornado-J/Sounds/Voice/centretank.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Voice/centretank.wav</path>
 			<type>avionics</type>
 			<mode>once</mode>
 			<condition>
@@ -631,7 +631,7 @@
  
 		<voice-transonic>
 			<name>voice-transonic</name>
-			<path>/Aircraft/Tornado-J/Sounds/Voice/transonic.wav</path>
+			<path>Aircraft/Tornado-J/Sounds/Voice/transonic.wav</path>
 			<type>avionics</type>
 			<mode>once</mode>
 			<condition>

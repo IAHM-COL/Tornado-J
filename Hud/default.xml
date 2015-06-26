@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 
 <!--
-F-15E Eagle HUD, StuartC, 28:12:2010, based on:
-
+HUD taken from the F-15E Eagle; StuartC, 28:12:2010, based on:
 
 Based on Default Panel by David Megginson, david@megginson.com.
 
@@ -22,15 +21,15 @@ in a separate file.
  <instruments>
 
   <hudladder>
-   <path>Aircraft/F-15E/Hud/hudladder.xml</path>
+   <path>Aircraft/Tornado-J/Hud/hudladder.xml</path>
   </hudladder>
 
   <hudcard>
-   <path>Aircraft/F-15E/Hud/hudcard.xml</path>
+   <path>Aircraft/Tornado-J/Hud/hudcard.xml</path>
   </hudcard>
 
   <instrlabel>
-   <path>Aircraft/F-15E/Hud/instrlabel.xml</path>
+   <path>Aircraft/Tornado-J/Hud/instrlabel.xml</path>
   </instrlabel>
 
  </instruments>
