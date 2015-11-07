@@ -514,7 +514,7 @@ Tornado yasim config file
       <line>Apply airbrake and reverser</line>
       <line>Landing dist(min): ~ 2100ft</line>
       <line>Landing, Takeoff with 25 wingsweep</line>
-      <line>Autobrakes: Tab-key:0=off, 4=max, 4=reject takeoff</line>
+      <line>Autobrakes: =-key:0=off, 4=max, 4=reject takeoff</line>
       <line> </line>
       <line> </line>
       <line>Flight Performance:</line>
@@ -719,18 +719,18 @@ Tornado yasim config file
 			  </binding>
       	    </key>
             
-	    <key n="9">
-    <name>Tab</name>
-    <desc>switch autobrake</desc>
-    <binding>
-     <command>property-cycle</command>
-     <property>/controls/gear/autobrakes</property>
-     <value>0</value> 
-     <value>4</value> 
-     <value>5</value> 
-    </binding>
-   </key>
-   
+	    <key n="61">
+	      <name>=</name>
+	      <desc>switch autobrake</desc>
+	      <binding>
+		<command>property-cycle</command>
+		<property>/controls/gear/autobrakes</property>
+		<value>0</value> 
+		<value>4</value> 
+		<value>5</value> 
+	      </binding>
+	    </key>
+	    
    <key n="101">
     <name>e</name>
     <desc>Guns</desc>

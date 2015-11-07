@@ -299,7 +299,7 @@
 			<line>Apply airbrake and reverser</line>
 			<line>Landing dist(min): ~ 2100ft</line>
 			<line>Landing, Takeoff with 25 wingsweep</line>
-			<line>Autobrakes: Tab-key:0=off, 4=max, 4=reject takeoff</line>
+			<line>Autobrakes: =-key:0=off, 4=max, 4=reject takeoff</line>
 			<line> </line>
 			<line> </line>
 			<line>Flight Performance:</line>
